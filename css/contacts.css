@@ -1,0 +1,195 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Regular.ttf');
+ }
+
+
+/*Navigationbar Portofolio*/
+.navigtionbar-portfolio {
+	background-color: #20222b;
+	border-color: #20222b;
+	color: #bc046e;
+}
+
+.navigtionbar-portfolio img {
+	width: 91px;
+    padding: 10px 0px;
+}
+
+.navigationbar-image img {
+	width: 100px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #bc046e;
+}
+.socialmedia-navigationbar {
+	text-align: right;
+}
+.socialmedia-navigationbar i {
+	padding: 20px 40px 0px 0px;
+	color: #bc046e;
+}
+.navbar-toggle {
+    float: left;
+    padding-left: 20px;
+}
+/*Navigationbar text*/
+.navbar-default .navbar-nav>li>a {
+    font-size: 17px;
+    color: #bc046e;
+    font-family: 'Montserrat';
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #bc046e;
+    font-family: 'Montserrat';
+}
+
+/*Maps*/
+.mapcontainer {
+	margin-top: 9%;
+}
+
+/*Send Email Footer*/
+
+
+.contact-section {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    text-align: left;
+    background: white;
+
+}
+
+.footer-name-social p{
+    font-size: 30px;
+}
+.footer-name-social p a{
+    font-size: 14px;
+}
+
+.footer-name-social h1{
+    font-size: 115px;
+    font-weight: bolder;
+}
+
+.footer-name-social i{
+    font-size: 25px;
+    color: #bc046e;
+    padding: 0px 20px;
+}
+
+.footer-name-social a {
+    text-decoration: none;
+    color: black;
+    padding-top: 10px
+}
+
+
+.footer-email-forms input {
+    width: 100%;
+    height: 60px;
+    padding: 30px;
+    margin-top: 10px;
+    border-radius: 4px;
+    box-shadow: none;
+    border: solid 1px #5d8676;
+}
+.footer-email-forms input:active {
+    outline: none;
+}
+.footer-email-forms input:focus {
+    outline: none;
+}
+.footer-email-forms textarea {
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 4px;
+    box-shadow: none;
+    border: solid 1px #5d8676;
+    padding: 25px;
+}
+.footer-email-forms textarea:active {
+    outline: none;
+}
+.footer-email-forms textarea:focus {
+    outline: none;
+}
+.footer-email-forms button {
+    width: 148px;
+    height: 47px;
+    background-color: #bc046e;
+    color: white;
+    border: transparent;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+.footer-name-social button i{
+    color: white !important;
+    padding: 0px 10px;
+    font-size: 17px;
+}
+
+
+
+/*Footer Bottom*/
+.footer-bootom {
+    background-color: #bc046e;
+    color: white;
+}
+
+.rights-reserved p {
+    font-size: 16px;
+}
+
+.social-media-footer {
+    text-align: right;
+    font-size: 18px;
+    /*padding: 50px 0px;*/
+}
+
+.social-media-footer i {
+    padding-left: 30px;
+}
+
+.footer-bootom a{
+    color: white;
+    text-decoration: none;
+}
+.footer-bootom a:hover{
+    color: white !important;
+    text-decoration: none;
+}
+.footer-bootom a:active{
+    color: white;
+    text-decoration: none;
+}
+.footer-bootom a:focus{
+    color: white;
+    text-decoration: none;
+}
+
+/*Mobile*/
+@media only screen and (max-width: 500px) {
+    .navbar-header img {
+        display: none;
+    }
+    /*Footer Contacts*/
+    .contact-section-mobile {
+        display: none;
+    }
+    /*Footer*/
+    .rights-reserved p {
+        display: none;
+    }
+    .social-media-footer {
+    text-align: center;
+    }
+    .social-media-footer i {
+    padding: 0px 4%;
+}
+}
+
+
+.gmnoprint {
+  display: none !important;
+}

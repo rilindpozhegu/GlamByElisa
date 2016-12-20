@@ -1,0 +1,151 @@
+body {
+	background-color: #20222b;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Regular.ttf');
+ }
+
+/*NAvigationbar*/
+.navigtionbar-portfolio {
+	background-color: #20222b;
+	border-color: #20222b;
+	color: #bc046e;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #bc046e;
+}
+.navigtionbar-portfolio img {
+	width: 91px;
+    padding: 10px 0px;
+}
+
+.navigationbar-image img {
+	width: 100px;
+}
+.socialmedia-navigationbar {
+	text-align: right;
+}
+.socialmedia-navigationbar i {
+	padding: 20px 40px 0px 0px;
+	color: #bc046e;
+}
+.navbar-toggle {
+    float: left;
+    padding-left: 20px;
+}
+/*Navigationbar text*/
+.navbar-default .navbar-nav>li>a {
+    font-size: 17px;
+    color: #bc046e;
+    font-family: 'Montserrat';
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #bc046e;
+    font-family: 'Montserrat';
+}
+
+
+/*Portfolio Cover*/
+.portfolio-cover {
+	margin-top: 5%;
+	padding: 150px 0px;
+	background-image: url('../img/portfolio-cover.png');
+	padding-top: 206px;
+    padding-bottom: 300px;
+	width: 100%;
+	text-align: center;
+	color: white;
+	border-bottom: solid 15px goldenrod;
+}
+
+.portfolio-cover img{
+	width: 100px;
+}
+.portfolio-cover h1 {
+	color: #bc046e ;
+	font-size: 60px;
+	letter-spacing: 20px;
+}
+.portfolio-cover span {
+	color: #a7a9ac;
+}
+.four-section {
+	padding-left: 0px;
+}
+.four-section img{
+	width: : 100%;
+}
+
+/*Footer Bottom*/
+.footer-bootom {
+    background-color: #bc046e;
+    color: white;
+}
+
+.footer-bootom a{
+	color: white;
+	text-decoration: none;
+}
+.footer-bootom a:hover{
+	color: white !important;
+	text-decoration: none;
+}
+.footer-bootom a:active{
+	color: white;
+	text-decoration: none;
+}
+.footer-bootom a:focus{
+	color: white;
+	text-decoration: none;
+}
+.rights-reserved p {
+    font-size: 16px;
+}
+
+.social-media-footer {
+    text-align: right;
+    font-size: 18px;
+    /*padding: 50px 0px;*/
+}
+
+.social-media-footer i {
+    padding-left: 30px;
+}
+
+
+/*Desktop*/
+@media only screen and (min-width: 500px) {
+   .paralax-mobile-mode img{
+   	display: none;
+   }
+}
+
+
+/*Mobile*/
+@media only screen and (max-width: 500px) {
+     .navbar-header img {
+        display: none;
+    }
+    .navigationbar-image img {
+	 display: none;
+	}
+
+	.desktop-mode {
+		display: none;
+	}
+	.rights-reserved p {
+    	display: none;
+	}
+	.social-media-footer {
+    text-align: center;
+	}
+	.social-media-footer i {
+    padding: 0px 4%;
+}
+
+.portfolio-cover h1 {
+	font-size: 16px;
+}
+}
