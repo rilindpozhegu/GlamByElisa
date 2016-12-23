@@ -6,7 +6,14 @@ body {
   font-family: 'Montserrat';
   src: url('../fonts/Montserrat-Regular.ttf');
  }
-
+@font-face {
+  font-family: 'GOTHAM-BOLD';
+  src: url('../fonts/GOTHAM-BOLD.TTF');
+ }
+ @font-face {
+  font-family: 'GGOTHAM-LIGHT';
+  src: url('../fonts/GOTHAM-LIGHT.TTF');
+ }
 /*Navigationbar Portofolio*/
 .navigtionbar-portfolio {
 	background-color: #20222b;
@@ -66,6 +73,13 @@ body {
 	margin: 23px 0px;
 	background-color: rgba(0, 0, 0, 0.66);
 	color: white;
+}
+.text-grid h1 {
+    font-family: 'GOTHAM-BOLD';
+}
+.text-grid p {
+    font-family: 'GOTHAM-LIGHT';
+    opacity: 8;
 }
 .text-grid button {
     margin-top: 10px;

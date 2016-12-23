@@ -12,7 +12,8 @@
     <link href="css/owl.carousel.css" rel="stylesheet">
     <link href="css/owl.theme.css" rel="stylesheet">
 
-    <title>Elisa Portfolio</title>
+    <title>Glam By Elisa</title>
+    <link rel="shortcut icon" type="img/logo-elisa1.png" href="favicon.ico" />
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -140,7 +141,6 @@
                     </div>
                 </div>
     </section>
-
     <div class="logo-slider-over col-md-12 container">
         <img src="img/logo-elisa1.png">
         <h1>&nbsp;GLAM<span>BY</span>ELISA</h1>
@@ -148,16 +148,15 @@
     </div>
 
 <!--  Portfolio Section 1  -->
-
 <section class="section1">
     <div class="container-fluid">
         <div class="row">   
-            <div class="col-md-6 col-xs-12 padding-none">
+            <div class="col-md-6 col-xs-12 padding-none first-panel-glam">
                 <div class="col-md-6 col-xs-6 image-s1 padding-none">
                     <img src="img/paralax1.png">
                 </div>
                 <div class="col-md-6 col-xs-6 text-s1">
-                <hr  width="40%" align="left" color:"pink">
+                <hr  width="40%" align="left" color:"pink" class="mobile-d-n">
                     <h1>Bridal Artist</h1>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</p>
                 <button>More<i class="fa fa-angle-right" aria-hidden="true"></i>
@@ -169,7 +168,7 @@
                     <img src="img/paralax1.png">
                 </div>
                 <div class="col-md-6 col-xs-6 text-s1">
-                <hr  width="40%" align="left" color:"pink">
+                <hr  width="40%" align="left" color:"pink" class="mobile-d-n">
                     <h1>Bridal Artist</h1>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</p>
                 <button>More<i class="fa fa-angle-right" aria-hidden="true"></i>
@@ -185,7 +184,7 @@
                     <img src="img/paralax1.png">
                 </div>
                 <div class="col-md-6 col-xs-6 text-s1">
-                <hr  width="40%" align="left" color:"pink">
+                <hr  width="40%" align="left" color:"pink" class="mobile-d-n">
                     <h1>Bridal Artist</h1>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</p>
                 <button>More<i class="fa fa-angle-right" aria-hidden="true"></i>
@@ -201,7 +200,7 @@
                     <img src="img/paralax1.png">
                 </div>
                 <div class="col-md-6 col-xs-6 text-s1">
-                <hr  width="40%" align="left" color:"pink">
+                <hr  width="40%" align="left" color:"pink" class="mobile-d-n">
                     <h1>Bridal Artist</h1>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</p>
                 <button>More<i class="fa fa-angle-right" aria-hidden="true"></i>
@@ -217,7 +216,7 @@
                     <img src="img/paralax1.png">
                 </div>
                 <div class="col-md-6 col-xs-6 text-s1">
-                <hr  width="40%" align="left" color:"pink">
+                <hr  width="40%" align="left" color:"pink" class="mobile-d-n">
                     <h1>Bridal Artist</h1>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</p>
                 <button>More<i class="fa fa-angle-right" aria-hidden="true"></i>
@@ -237,14 +236,15 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h4>About Section</h4>
                     <h1>ELISA</h1>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make</p>
-                    <button>Contact</button>
+                    <h4 style="text-align: center;">Understanding every woman's style and preferences is the key to achieve the look you love.</h4>
+                    <p>Elisa has discovered her passion in her early teenage when she used to help her older sister with their make-up and hair-braiding. Elisa has decided to make it as a profession when she first arrived in new York city in 2001. Later with her passion growing more for beauty she earned a diploma in skin-care at Marinello Schools of Beauty and she is licensed esthetician in new York.</p>
+                    <a href="#contact"><button>Contact</button></a>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!-- Portfolio section
 ================================================== -->
@@ -265,148 +265,197 @@
                                 <div class="my-gallery row">
 
                                     <figure class="iso-box graphic branding col-md-2 col-xs-6">
-                                        <a href="img/paralax1.png" itemprop="contentUrl" data-size="3178x2786">
-                                            <img src="img/paralax1.png" itemprop="thumbnail" alt="Image description" />
+                                        <a href="img/galery/img-g1-01.png" itemprop="contentUrl" data-size="2978x2086">
+                                            <img src="img/galery/img-g1-01.png" itemprop="thumbnail" alt="Image description" />
                                         </a>
                                     <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
 
                                     </figure>
 
                                     <figure class="iso-box graphic branding col-md-2 col-xs-6">
-                                        <a href="img/paralax1.png" itemprop="contentUrl" data-size="3178x2786">
-                                            <img src="img/paralax1.png" itemprop="thumbnail" alt="Image description" />
+                                        <a href="img/galery/img-g2-01.png" itemprop="contentUrl" data-size="2978x2086">
+                                            <img src="img/galery/img-g2-01.png" itemprop="thumbnail" alt="Image description" />
                                         </a>
                                     <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
 
                                     </figure>
 
                                     <figure class="iso-box graphic branding col-md-2 col-xs-6">
-                                        <a href="img/paralax1.png" itemprop="contentUrl" data-size="3178x2786">
-                                            <img src="img/paralax1.png" itemprop="thumbnail" alt="Image description" />
+                                        <a href="img/galery/img-g3-01.png" itemprop="contentUrl" data-size="2978x2086">
+                                            <img src="img/galery/img-g3-01.png" itemprop="thumbnail" alt="Image description" />
                                         </a>
                                     <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
 
                                     </figure>
 
                                     <figure class="iso-box graphic branding col-md-2 col-xs-6">
-                                        <a href="img/paralax1.png" itemprop="contentUrl" data-size="3178x2786">
-                                            <img src="img/paralax1.png" itemprop="thumbnail" alt="Image description" />
+                                        <a href="img/galery/img-g4-01.png" itemprop="contentUrl" data-size="2978x2086">
+                                            <img src="img/galery/img-g4-01.png" itemprop="thumbnail" alt="Image description" />
                                         </a>
                                     <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
 
                                     </figure>
 
                                     <figure class="iso-box graphic branding col-md-2 col-xs-6">
-                                        <a href="img/paralax1.png" itemprop="contentUrl" data-size="3178x2786">
-                                            <img src="img/paralax1.png" itemprop="thumbnail" alt="Image description" />
+                                        <a href="img/galery/img-g5-01.png" itemprop="contentUrl" data-size="2978x2086">
+                                            <img src="img/galery/img-g5-01.png" itemprop="thumbnail" alt="Image description" />
                                         </a>
                                     <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
 
                                     </figure>
 
                                     <figure class="iso-box graphic branding col-md-2 col-xs-6">
-                                        <a href="img/paralax1.png" itemprop="contentUrl" data-size="3178x2786">
-                                            <img src="img/paralax1.png" itemprop="thumbnail" alt="Image description" />
+                                        <a href="img/galery/img-g6-01.png" itemprop="contentUrl" data-size="2978x2086">
+                                            <img src="img/galery/img-g6-01.png" itemprop="thumbnail" alt="Image description" />
                                         </a>
                                     <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
 
                                     </figure>
 
                                     <figure class="iso-box graphic branding col-md-2 col-xs-6">
-                                        <a href="img/paralax1.png" itemprop="contentUrl" data-size="3178x2786">
-                                            <img src="img/paralax1.png" itemprop="thumbnail" alt="Image description" />
+                                        <a href="img/galery/img-g7-01.png" itemprop="contentUrl" data-size="2978x2086">
+                                            <img src="img/galery/img-g7-01.png" itemprop="thumbnail" alt="Image description" />
                                         </a>
                                     <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
 
                                     </figure>
 
                                     <figure class="iso-box graphic branding col-md-2 col-xs-6">
-                                        <a href="img/paralax1.png" itemprop="contentUrl" data-size="3178x2786">
-                                            <img src="img/paralax1.png" itemprop="thumbnail" alt="Image description" />
+                                        <a href="img/galery/img-g8-01.png" itemprop="contentUrl" data-size="2978x2086">
+                                            <img src="img/galery/img-g8-01.png" itemprop="thumbnail" alt="Image description" />
                                         </a>
                                     <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
 
                                     </figure>
 
                                     <figure class="iso-box graphic branding col-md-2 col-xs-6">
-                                        <a href="img/paralax1.png" itemprop="contentUrl" data-size="3178x2786">
-                                            <img src="img/paralax1.png" itemprop="thumbnail" alt="Image description" />
+                                        <a href="img/galery/img-g9-01.png" itemprop="contentUrl" data-size="2978x2086">
+                                            <img src="img/galery/img-g9-01.png" itemprop="thumbnail" alt="Image description" />
                                         </a>
                                     <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
 
                                     </figure>
 
                                     <figure class="iso-box graphic branding col-md-2 col-xs-6">
-                                        <a href="img/paralax1.png" itemprop="contentUrl" data-size="3178x2786">
-                                            <img src="img/paralax1.png" itemprop="thumbnail" alt="Image description" />
+                                        <a href="img/galery/img-g10-01.png" itemprop="contentUrl" data-size="2978x2086">
+                                            <img src="img/galery/img-g10-01.png" itemprop="thumbnail" alt="Image description" />
                                         </a>
                                     <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
 
                                     </figure>
 
                                     <figure class="iso-box graphic branding col-md-2 col-xs-6">
-                                        <a href="img/paralax1.png" itemprop="contentUrl" data-size="3178x2786">
-                                            <img src="img/paralax1.png" itemprop="thumbnail" alt="Image description" />
+                                        <a href="img/galery/img-g11-01.png" itemprop="contentUrl" data-size="2978x2086">
+                                            <img src="img/galery/img-g11-01.png" itemprop="thumbnail" alt="Image description" />
                                         </a>
                                     <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
 
                                     </figure>
 
                                     <figure class="iso-box graphic branding col-md-2 col-xs-6">
-                                        <a href="img/paralax1.png" itemprop="contentUrl" data-size="3178x2786">
-                                            <img src="img/paralax1.png" itemprop="thumbnail" alt="Image description" />
+                                        <a href="img/galery/img-g12-01.png" itemprop="contentUrl" data-size="2978x2086">
+                                            <img src="img/galery/img-g12-01.png" itemprop="thumbnail" alt="Image description" />
                                         </a>
                                     <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
 
                                     </figure>
 
                                     <figure class="iso-box graphic branding col-md-2 col-xs-6">
-                                        <a href="img/paralax1.png" itemprop="contentUrl" data-size="3178x2786">
-                                            <img src="img/paralax1.png" itemprop="thumbnail" alt="Image description" />
+                                        <a href="img/galery/img-g13-01.png" itemprop="contentUrl" data-size="2978x2086">
+                                            <img src="img/galery/img-g13-01.png" itemprop="thumbnail" alt="Image description" />
                                         </a>
                                     <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
 
                                     </figure>
 
                                     <figure class="iso-box graphic branding col-md-2 col-xs-6">
-                                        <a href="img/paralax1.png" itemprop="contentUrl" data-size="3178x2786">
-                                            <img src="img/paralax1.png" itemprop="thumbnail" alt="Image description" />
+                                        <a href="img/galery/img-g14-01.png" itemprop="contentUrl" data-size="2978x2086">
+                                            <img src="img/galery/img-g14-01.png" itemprop="thumbnail" alt="Image description" />
                                         </a>
                                     <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
 
                                     </figure>
 
                                     <figure class="iso-box graphic branding col-md-2 col-xs-6">
-                                        <a href="img/paralax1.png" itemprop="contentUrl" data-size="3178x2786">
-                                            <img src="img/paralax1.png" itemprop="thumbnail" alt="Image description" />
+                                        <a href="img/galery/img-g15-01.png" itemprop="contentUrl" data-size="2978x2086">
+                                            <img src="img/galery/img-g15-01.png" itemprop="thumbnail" alt="Image description" />
                                         </a>
                                     <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
 
                                     </figure>
 
                                     <figure class="iso-box graphic branding col-md-2 col-xs-6">
-                                        <a href="img/paralax1.png" itemprop="contentUrl" data-size="3178x2786">
-                                            <img src="img/paralax1.png" itemprop="thumbnail" alt="Image description" />
+                                        <a href="img/galery/img-g16-01.png" itemprop="contentUrl" data-size="2978x2086">
+                                            <img src="img/galery/img-g16-01.png" itemprop="thumbnail" alt="Image description" />
                                         </a>
                                     <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
 
                                     </figure>
 
                                     <figure class="iso-box graphic branding col-md-2 col-xs-6">
-                                        <a href="img/paralax1.png" itemprop="contentUrl" data-size="3178x2786">
-                                            <img src="img/paralax1.png" itemprop="thumbnail" alt="Image description" />
+                                        <a href="img/galery/img-g17-01.png" itemprop="contentUrl" data-size="2978x2086">
+                                            <img src="img/galery/img-g17-01.png" itemprop="thumbnail" alt="Image description" />
                                         </a>
                                     <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
 
                                     </figure>
 
                                     <figure class="iso-box graphic branding col-md-2 col-xs-6">
-                                        <a href="img/paralax1.png" itemprop="contentUrl" data-size="3178x2786">
-                                            <img src="img/paralax1.png" itemprop="thumbnail" alt="Image description" />
+                                        <a href="img/galery/img-g18-01.png" itemprop="contentUrl" data-size="2978x2086">
+                                            <img src="img/galery/img-g18-01.png" itemprop="thumbnail" alt="Image description" />
                                         </a>
                                     <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
 
                                     </figure>
+
+                                    <figure class="iso-box graphic branding col-md-2 col-xs-6">
+                                        <a href="img/galery/img-g19-01.png" itemprop="contentUrl" data-size="2978x2086">
+                                            <img src="img/galery/img-g19-01.png" itemprop="thumbnail" alt="Image description" />
+                                        </a>
+                                    <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
+
+                                    </figure>
+
+                                    <figure class="iso-box graphic branding col-md-2 col-xs-6">
+                                        <a href="img/galery/img-g20-01.png" itemprop="contentUrl" data-size="2978x2086">
+                                            <img src="img/galery/img-g20-01.png" itemprop="thumbnail" alt="Image description" />
+                                        </a>
+                                    <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
+
+                                    </figure>
+
+                                    <figure class="iso-box graphic branding col-md-2 col-xs-6">
+                                        <a href="img/galery/img-g21-01.png" itemprop="contentUrl" data-size="2978x2086">
+                                            <img src="img/galery/img-g21-01.png" itemprop="thumbnail" alt="Image description" />
+                                        </a>
+                                    <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
+
+                                    </figure>
+
+                                    <figure class="iso-box graphic branding col-md-2 col-xs-6">
+                                        <a href="img/galery/img-g22-01.png" itemprop="contentUrl" data-size="2978x2086">
+                                            <img src="img/galery/img-g22-01.png" itemprop="thumbnail" alt="Image description" />
+                                        </a>
+                                    <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
+
+                                    </figure>
+                                    <figure class="iso-box graphic branding col-md-2 col-xs-6">
+                                        <a href="img/galery/img-g23-01.png" itemprop="contentUrl" data-size="2978x2086">
+                                            <img src="img/galery/img-g23-01.png" itemprop="thumbnail" alt="Image description" />
+                                        </a>
+                                    <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
+
+                                    </figure>
+
+                                    <figure class="iso-box graphic branding col-md-2 col-xs-6">
+                                        <a href="img/galery/img-g24-01.png" itemprop="contentUrl" data-size="2978x2086">
+                                            <img src="img/galery/img-g24-01.png" itemprop="thumbnail" alt="Image description" />
+                                        </a>
+                                    <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
+
+                                    </figure>
+
+                                    
 
 
                                 </div>
@@ -484,7 +533,56 @@
    </div>
 </section>
 
+<!-- Testimonials -->
+      <div id="demo" class="testimonial_section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-1 mobile-d-n customNavigation">
+                 <a class="btn prev prev-btn1"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+            </div>
+            <div class="span12 col-md-10">                
+                <div id="owl-demoa" class="owl-carousel desktop_testimonial_slider">
+                    
+                    <div class="item testimonial_panel">               
+                        <img src="img/logo-elisa.png">
+                        <div class="row">
+                            <div class="#">
+                                <h3>Lady Clara</h3>
+                                <!-- <span>GENERAL MANAGER</span> -->
+                                <p>"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s," </p>
+                            </div>
+                        </div>  
+                    </div>
+                   
+                   <div class="item testimonial_panel">               
+                        <img src="img/logo-elisa.png">
+                        <div class="row">
+                            <div class="#">
+                                <h3>Lady Clara</h3>
+                                <p>"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s," </p>
+                            </div>
+                        </div>  
+                    </div>
 
+                    <div class="item testimonial_panel">               
+                        <img src="img/logo-elisa.png">
+                        <div class="row">
+                            <div class="#">
+                                <h3>Lady Clara</h3>
+                                <p>"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s," </p>
+                            </div>
+                        </div>  
+                    </div>
+                </div>  
+            </div>
+            <div class="col-md-1 mobile-d-n customNavigation">
+                <a class="btn prev prev-btn1"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </div>
+    </div>
+
+<div class="clearfix"></div>
     <!-- Slide Images Carocel -->
     <div class="container-fluid bottom-slider_images">
     <div class="container">
@@ -625,8 +723,8 @@
                 <div class="col-md-8 footer-email-forms">
                     <div class="col-md-6">
                         <input type="text" name="name" placeholder="Your Name">
-                        <input type="text" name="name" placeholder="Your Name">
-                        <input type="text" name="name" placeholder="Your Name">
+                        <input type="text" name="name" placeholder="Your Email">
+                        <input type="text" name="name" placeholder="Your Address">
                     </div>
                     <div class="col-md-6">
                         <textarea type="text" name="text" placeholder="Your Message" rows="8"></textarea>
@@ -694,6 +792,16 @@
             $("#owl-demo").owlCarousel({
                 autoPlay: 5000,
                 items: 4,
+                itemsDesktop: [1199, 3],
+                itemsDesktopSmall: [979, 3]
+            });
+
+        });
+
+         $(document).ready(function() {
+            $("#owl-demoa").owlCarousel({
+                autoPlay: 7000,
+                items: 1,
                 itemsDesktop: [1199, 3],
                 itemsDesktopSmall: [979, 3]
             });

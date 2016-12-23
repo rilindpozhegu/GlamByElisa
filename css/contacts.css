@@ -49,8 +49,6 @@
 	margin-top: 9%;
 }
 
-/*Send Email Footer*/
-
 
 .contact-section {
     padding-top: 90px;
@@ -70,12 +68,13 @@
 .footer-name-social h1{
     font-size: 115px;
     font-weight: bolder;
+    margin-left: -5px;
 }
 
 .footer-name-social i{
     font-size: 25px;
     color: #bc046e;
-    padding: 0px 20px;
+    padding: 0px 20px 0px 0px;
 }
 
 .footer-name-social a {
@@ -128,8 +127,6 @@
     padding: 0px 10px;
     font-size: 17px;
 }
-
-
 
 /*Footer Bottom*/
 .footer-bootom {

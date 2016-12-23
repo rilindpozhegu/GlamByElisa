@@ -267,19 +267,20 @@ html {
     width: 100%;
 }
     .text-s1 {
-        padding: 15px 15px 0px 15px;
+        padding: 15px 10px 0px 10px;
     }
     .section1 .text-s1 h1 {
         color: white;
         font-size: 14px;
         font-family: 'GOTHAM-BOLD';
+        margin: 0px;
     } 
     .section1 .text-s1 p {
         color: white;
         font-family: 'GOTHAM-LIGHT';
         opacity: 0.4; 
         padding-bottom: 15px;
-        font-size: 7px;
+        font-size: 9px;
     }
     .section1 .text-s1 button {
         width: 100px;
@@ -297,6 +298,9 @@ html {
     }
     .desktop-view {
         display: none;
+    }
+    .first-panel-glam {
+        margin-top: 52px;
     }
 }
 
@@ -330,6 +334,46 @@ html {
     border-radius: 4px;
     margin-top: 20px;
 }
+
+/*         TESTIMONIALS        */
+/*=============================*/
+.testimonial_section {
+  background-image: url('../img/testimonial-bg-01.png');
+  background-size: cover;
+}
+.desktop_testimonial_slider {
+  text-align: center;
+  padding: 80px 0px;
+  color: white;
+}
+.desktop_testimonial_slider img {
+  width: 80px;
+}
+.desktop_testimonial_slider h3 {
+  font-family: "Montserrat-Bold";
+  margin-bottom: 0px;
+
+}
+.testimonial_panel span {
+  font-size: 14px;
+}
+.testimonial_panel p {
+  margin-top: 30px;
+  opacity: 0.7;
+  padding: 10px 40px;
+}
+
+.customNavigation i{
+  color: white;
+  font-size: 80px;
+  font-weight: lighter;
+}
+
+.prev-btn1 {
+  padding: 170px 20px 0px;
+}
+
+
 
 
 /*Galery Home*/
@@ -366,12 +410,13 @@ html {
 .footer-name-social h1{
     font-size: 115px;
     font-weight: bolder;
+    margin-left: -5px;
 }
 
 .footer-name-social i{
     font-size: 25px;
     color: #bc046e;
-    padding: 0px 20px;
+    padding: 0px 20px 0px 0px;
 }
 
 .footer-name-social a {
@@ -557,8 +602,11 @@ html {
     padding-left: 20px;
 }
 /*Mobile*/
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 844px) {
     /*top slider home col-md-6*/
+    .mobile-d-n {
+        display: none;
+    }
     .carousel-indicators {
         display: none;
     }
@@ -610,4 +658,9 @@ html {
     .social-media-footer i {
     padding: 0px 4%;
 }
+    .carousel-image {
+    position: absolute;
+    left: -273px;
+}
+
 }

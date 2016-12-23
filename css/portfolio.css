@@ -58,6 +58,8 @@ body {
 	text-align: center;
 	color: white;
 	border-bottom: solid 15px goldenrod;
+	background-size: cover;
+	background-repeat: no-repeat; 
 }
 
 .portfolio-cover img{
