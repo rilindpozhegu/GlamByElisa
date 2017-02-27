@@ -800,7 +800,7 @@
 
          $(document).ready(function() {
             $("#owl-demoa").owlCarousel({
-                autoPlay: 7000,
+                autoPlay: 9000,
                 items: 1,
                 itemsDesktop: [1199, 3],
                 itemsDesktopSmall: [979, 3]
