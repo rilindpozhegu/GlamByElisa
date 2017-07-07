@@ -8,8 +8,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
+    
+    <link rel="shortcut icon" type="image/png" href="img/logo-elisa1.png"/>
 
-    <title>Elisa Contacts</title>
+    <title>Elysa Contacts</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -33,7 +35,7 @@
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 <!-- Preloader -->
     <div id="overlay">
-        <img src="img/logo-elisa1.png" >
+        <img src="img/logo-elisa1.png" class="preloader_img">
     </div>
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top navigtionbar-portfolio" role="navigation">
@@ -64,16 +66,16 @@
                         <a class="page-scroll" href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="#" href="index.php">HOME</a>
+                        <a class="#" href="http://glambyelisa.com/">HOME</a>
                     </li>
                     <li>
-                        <a class="#" href="portfolio.html">PORTFOLIO</a>
+                        <a class="#" href="portfolio.php">PORTFOLIO</a>
                     </li>
                     <li>
-                        <a class="#" href="services.html">SERVICES</a>
+                        <a class="#" href="services.php">SERVICES</a>
                     </li>
                     <li>
-                        <a class="#" href="#">CONTACTS</a>
+                        <a class="active4n" href="#">CONTACT</a>
                     </li>
                 </ul>
             </div>
@@ -81,6 +83,13 @@
         </div>
         <!-- /.container -->
     </nav>
+
+      <style type="text/css">
+        .active4n {
+            color: #fff !important;
+        }
+    </style>
+
 
     <!-- MAPS -->
     <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDIkvTNXiqlGHpsXsAYXHqH8Uf14hqhEIo'></script>
@@ -97,17 +106,17 @@
     <script type='text/javascript'>
         function init_map() {
             var myOptions = {
-                zoom: 10,
-                center: new google.maps.LatLng(31.9685988, -99.90181310000003),
-                mapTypeId: google.maps.MapTypeId.ROADMAP
+                zoom: 16,
+                center: new google.maps.LatLng(32.784024, -96.7969436),
+                mapTypeId: google.maps.MapTypeId.ROADMAP,
             };
             map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
             marker = new google.maps.Marker({
                 map: map,
-                position: new google.maps.LatLng(31.9685988, -99.90181310000003)
+                position: new google.maps.LatLng(32.784024, -96.7969436),
             });
             infowindow = new google.maps.InfoWindow({
-                content: '<div class="map-text"><strong>Glam by Elisa</strong><br><br><img src="img/logo-elisa.png" class="map-logo"></div>'
+                content: '<div class="map-text"><strong>Glam by Elysa</strong><br><br><img src="img/logo-elisa.png" class="map-logo"><br><br><strong>350 North Saint Paul St, Dallas, Texas</strong></div>'
             });
             google.maps.event.addListener(marker, 'click', function() {
                 infowindow.open(map, marker);
@@ -131,13 +140,13 @@
             <div class="container row footer-name-social">
                 <div class="col-md-4 contact-section-mobile">
                     <p>Get in Touch With</p>
-                    <h1>ELISA</h1>
+                    <h1>ELYSA</h1>
                     <a href="https://web.facebook.com/glambyelisa?_rdr"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                     <i class="fa fa-twitter" aria-hidden="true"></i>
                     <i class="fa fa-pinterest-p" aria-hidden="true"></i>
                     <i class="fa fa-instagram" aria-hidden="true"></i>
                     <a href="https://www.thumbtack.com/-Dallas-TX/service/2630717"><i class="fa fa-thumb-tack" aria-hidden="true"></i></a>
-                    <a href="#">info@glambyelisa.com</a>
+                    <a href="#">info@glambyelysa.com</a>
                 </div>
                 <div class="col-md-8 footer-email-forms">
                     <div class="col-md-6">

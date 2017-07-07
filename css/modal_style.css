@@ -1,0 +1,75 @@
+.small_padding_lr {
+	padding: 0px 3px;
+}
+
+.modal_style_details  {
+	background-color: #20222B !important;
+	border-right: solid 7px #BC046E;
+}
+
+.close_button {
+	position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    border: transparent;
+}
+
+.close_button:hover {
+	color: #BC046E;
+}
+
+.modal_style_details h1 {
+	color: white;
+    font-family: 'GOTHAM-BOLD';
+    margin-bottom: 20px;
+}
+
+.modal_style_details h1 span {
+	color: #BC046E;
+}
+
+.modal_style_details .modal-footer {
+    padding: 15px;
+    text-align: right;
+     border-top: 1px solid transparent; 
+}
+
+.modal_style_details input {
+	width: 100%;
+	height: 40px;
+	padding: 10px;
+	margin-top: 6px;
+	border-radius: 4px;
+	background: transparent;
+	color: #ccc;
+	border: solid 1px rgba(204, 204, 204, 0.5);
+}
+.modal_style_details select {
+	width: 100%;
+	height: 40px;
+	padding: 10px;
+	margin-top: 6px;
+	border-radius: 4px;
+	background: #BC046E;
+	color: #fff;
+	border: solid 1px rgba(204, 204, 204, 0.5);
+}
+
+.modal_style_details .submit_buttons {
+	margin: 20px 0px;
+	background-color: #BC046E;
+	color: white;
+	border: solid 1px transparent;
+	width: 100px;
+	height: 40px;
+	border-radius: 5px;
+}
+
+.modal_style_details .submit_buttons:hover {
+	color: #BC046E;
+	border: solid 1px #BC046E;
+	background-color: transparent;
+}

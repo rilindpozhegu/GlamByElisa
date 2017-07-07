@@ -61,7 +61,7 @@ body {
 }
 .section-1_cover {
 	background-image: url('../img/section1.png');
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: 40%;
 }
@@ -70,17 +70,26 @@ body {
 }
 .text-grid {
 	padding: 7% 20px;
-	margin: 23px 0px;
+	margin: 2% 0px;
 	background-color: rgba(0, 0, 0, 0.66);
 	color: white;
+    text-align: center;
 }
+
+.text-grid b {
+    font-size: 16px;
+}
+
 .text-grid h1 {
     font-family: 'GOTHAM-BOLD';
+    font-size: 30px;
+    margin-bottom: 20px;
 }
 .text-grid p {
     font-family: 'GOTHAM-LIGHT';
     opacity: 8;
 }
+
 .text-grid button {
     margin-top: 10px;
     background-color: #bc046e;
@@ -100,25 +109,34 @@ body {
 .section-2_cover {
 	margin-top: 0px;
 	background-image: url('../img/section2.png');
-    background-size: 100%;
     background-position: 70%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /*Section 3*/
 .section-3_cover {
 	margin-top: 0px;
 	background-image: url('../img/section3.png');
-    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /*Section 4*/
 .section-4_cover {
 	margin-top: 0px;
 	background-image: url('../img/section4.png');
-    background-size: 100%;
+    background-size: cover;
     background-position: 80%;
+    background-repeat: no-repeat;
 }
-
+.section-5_cover {
+    margin-top: 0px;
+    background-image: url('../img/section5.png');
+    background-size: cover;
+    background-position: 80%;
+    background-repeat: no-repeat;
+}
 /*Footer Bottom*/
 .footer-bootom {
     background-color: #bc046e;

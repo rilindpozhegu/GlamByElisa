@@ -52,12 +52,12 @@ body {
 	margin-top: 5%;
 	padding: 150px 0px;
 	background-image: url('../img/portfolio-cover.png');
-	padding-top: 206px;
-    padding-bottom: 300px;
+	padding-top: 226px;
+    padding-bottom: 400px;
 	width: 100%;
 	text-align: center;
-	color: white;
-	border-bottom: solid 15px goldenrod;
+	color: white;/*
+	border-bottom: solid 15px goldenrod;*/
 	background-size: cover;
 	background-repeat: no-repeat; 
 }
@@ -72,6 +72,9 @@ body {
 }
 .portfolio-cover span {
 	color: #a7a9ac;
+}
+.portfolio-cover p {
+	font-size: 30px;
 }
 .four-section {
 	padding-left: 0px;

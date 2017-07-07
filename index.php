@@ -12,7 +12,9 @@
     <link href="css/owl.carousel.css" rel="stylesheet">
     <link href="css/owl.theme.css" rel="stylesheet">
 
-    <title>Glam By Elisa</title>
+    <link rel="shortcut icon" type="image/png" href="img/logo-elisa1.png"/>
+    
+    <title>Glam By Elysa</title>
     <link rel="shortcut icon" type="img/logo-elisa1.png" href="favicon.ico" />
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
     <!-- Bootstrap Core CSS -->
@@ -21,6 +23,7 @@
     <!-- Custom CSS -->
     <link href="css/scrolling-nav.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/home-galery.css">
+    <link rel="stylesheet" type="text/css" href="css/modal_style.css">
     <link rel="stylesheet" type="text/css" href="css/preloader.css">
 
      <!-- PhotoSwipe -->
@@ -34,7 +37,7 @@
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 <!-- Preloader -->
     <div id="overlay">
-        <img src="img/logo-elisa1.png" >
+        <img src="img/logo-elisa1.png" class="preloader_img">
     </div>
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top navigationbar-elisa" role="navigation">
@@ -65,7 +68,7 @@
                     </li>
                     <li>
                         <li class="dropdown dropdown-navigationbar">
-                            <a id="drop1" href="#">HOME<!--  <i class="fa fa-angle-down" aria-hidden="true"></i> --></a>
+                            <a id="drop1" class="active1n" href="http://glambyelisa.com/">HOME<!--  <i class="fa fa-angle-down" aria-hidden="true"></i> --></a>
                             <!-- <ul id="menu1" class="dropdown-menu" role="menu" aria-labelledby="drop1">
                                 <li role="presentation"><a role="menuitem" href="#"><i class="fa fa-angle-down" aria-hidden="true"></i> Make Up</a>
                                 </li>
@@ -89,13 +92,13 @@
                         </li>
                     </li>
                     <li>
-                        <a class="page-scroll" href="portfolio.html">PORTFOLIO</a>
+                        <a class="page-scroll" href="portfolio.php">PORTFOLIO</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="services.html">SERVICES</a>
+                        <a class="page-scroll" href="services.php">SERVICES</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="contacts.html">CONTACT</a>
+                        <a class="page-scroll" href="contacts.php">CONTACT</a>
                     </li>
                 </ul>
             </div>
@@ -141,91 +144,127 @@
                     </div>
                 </div>
     </section>
+
+    <style type="text/css">
+        .active1n {
+            color: #fff !important;
+        }
+    </style>
+
     <div class="logo-slider-over col-md-12 container">
         <img src="img/logo-elisa1.png">
-        <h1>&nbsp;GLAM<span>BY</span>ELISA</h1>
-        <button class="slider-top-button">More <i class="fa fa-angle-right" aria-hidden="true"></i></button>
+        <h1>&nbsp;GLAM<span>BY</span>ELYSA</h1>
+        <button class="slider-top-button default_button">More <i class="fa fa-angle-right" aria-hidden="true"></i></button>
     </div>
 
 <!--  Portfolio Section 1  -->
 <section class="section1">
     <div class="container-fluid">
         <div class="row">   
-            <div class="col-md-6 col-xs-12 padding-none first-panel-glam">
-                <div class="col-md-6 col-xs-6 image-s1 padding-none">
+            <div class="twentygrid col-xs-12 padding-none first-panel-glam">
+                <div class="col-md-12 col-xs-6 image-s1 padding-none">
                     <img src="img/paralax1.png">
-                </div>
-                <div class="col-md-6 col-xs-6 text-s1">
+                    <div class="overlay_image_g">
+                        <div class="text">
+                           <button class="default_button" data-toggle="modal" data-target="#myModal">Book Now <i class="fa fa-angle-down" aria-hidden="true"></i></button>
+                        </div>
+                    </div>
+                </div>    
+                <div class="col-md-12 col-xs-6 text-s1">
                 <hr  width="40%" align="left" color:"pink" class="mobile-d-n">
-                    <h1>Bridal Artist</h1>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</p>
-                <button>More<i class="fa fa-angle-right" aria-hidden="true"></i>
-                </button>
+                    <h1>FACIAl Treatments Service</h1>
+                    <p>Acne facial $85 (75min)  <br>
+                    Chemical peels+led light $65-$85 (75 min)<br>
+                    Microdermabrasion $90 (60min) <br>
+                    </p>
+                    <a href="services.php#service_one"><button class="default_button">More<i class="fa fa-angle-right" aria-hidden="true"></i></button></a>
+                </div>
+            </div> 
+            <div class="twentygrid col-xs-12 padding-none first-panel-glam">
+                <div class="col-md-12 col-xs-6 text-s1">
+                <hr  width="40%" align="left" color:"pink" class="mobile-d-n">
+                    <h1>Waxing Service</h1>
+                    <p>Lip -$6<br>
+                    Chin- $8<br>
+                    Cheeks- $5 each<br>
+                    Full Face - $25
+                    </p>
+                <a href="services.php#service_two"><button class="default_button">More<i class="fa fa-angle-right" aria-hidden="true"></i></button></a>
+                </div>
+                <div class="col-md-12 col-xs-6 image-s1 padding-none">
+                    <img src="img/paralax2.png">
+                    <div class="overlay_image_g">
+                        <div class="text">
+                           <button class="default_button"  data-toggle="modal" data-target="#myModal">Book Now <i class="fa fa-angle-down" aria-hidden="true"></i></button>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-6 col-xs-12 padding-none">
-                <div class="col-md-6 col-xs-6 image-s1 padding-none desktop-view">
-                    <img src="img/paralax1.png">
+            <div class="twentygrid col-xs-12 padding-none first-panel-glam">
+                <div class="col-md-12 col-xs-6 image-s1 padding-none">
+                    <img src="img/paralax3.png">
+                    <div class="overlay_image_g">
+                        <div class="text">
+                           <button class="default_button"  data-toggle="modal" data-target="#myModal">Book Now <i class="fa fa-angle-down" aria-hidden="true"></i></button>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-6 col-xs-6 text-s1">
+                <div class="col-md-12 col-xs-6 text-s1">
                 <hr  width="40%" align="left" color:"pink" class="mobile-d-n">
-                    <h1>Bridal Artist</h1>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</p>
-                <button>More<i class="fa fa-angle-right" aria-hidden="true"></i>
-                </button>
-                </div>                
-                <div class="col-md-6 col-xs-6 image-s1 padding-none mobile-view">
-                    <img src="img/paralax1.png">
-                </div>
-            </div>
+                    <h1>Brow Bar</h1>
+                    <p>-Brow shaping and waxing$20(20min)<br>
+                    -Brows waxing 12<br>
+                    -Brow tinting 35$<br>
+                    -(Microblading)coming soon
 
-            <div class="col-md-6 col-xs-12 padding-none">
-                <div class="col-md-6 col-xs-6 image-s1 padding-none mobile-view">
-                    <img src="img/paralax1.png">
-                </div>
-                <div class="col-md-6 col-xs-6 text-s1">
-                <hr  width="40%" align="left" color:"pink" class="mobile-d-n">
-                    <h1>Bridal Artist</h1>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</p>
-                <button>More<i class="fa fa-angle-right" aria-hidden="true"></i>
-                </button>
-                </div>
-                <div class="col-md-6 col-xs-6 image-s1 padding-none desktop-view">
-                    <img src="img/paralax1.png">
+                    </p>
+                <a href="services.php#service_three"><button class="default_button">More<i class="fa fa-angle-right" aria-hidden="true"></i></button></a>
                 </div>
             </div>
+            <div class="twentygrid col-xs-12 padding-none first-panel-glam">
+                <div class="col-md-12 col-xs-6 text-s1">
+                <hr  width="40%" align="left" color:"pink" class="mobile-d-n">
+                    <h1>MAKE UP </h1>
+                    <p>-$75 (all include lashes)<br>
+                    -Wedding make up $75<br>
+                    -Trial 70<br>
+                    -Photography
+                    </p>
+                <a href="services.php#service_four"><button class="default_button">More<i class="fa fa-angle-right" aria-hidden="true"></i></button></a>
+                </div>
+                <div class="col-md-12 col-xs-6 image-s1 padding-none">
+                    <img src="img/paralax2.png">
+                    <div class="overlay_image_g">
+                        <div class="text">
+                           <button class="default_button"  data-toggle="modal" data-target="#myModal">Book Now <i class="fa fa-angle-down" aria-hidden="true"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="twentygrid col-xs-12 padding-none first-panel-glam">
+                <div class="col-md-12 col-xs-6 image-s1 padding-none">
+                    <img src="img/paralax3.png">
+                    <div class="overlay_image_g">
+                        <div class="text">
+                           <button class="default_button"  data-toggle="modal" data-target="#myModal">Book Now <i class="fa fa-angle-down" aria-hidden="true"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-xs-6 text-s1">
+                <hr  width="40%" align="left" color:"pink" class="mobile-d-n">
+                    <h1>HAIR UP DOS & STYLING</h1>
+                    <p>
+                    -HAIR UP DOS & STYLING $50-$75<br>
+                    -Waves<br>
+                    -Straight<br>
+                    -Romantic<br>
 
-            <div class="col-md-6 col-xs-12 padding-none mobile-view">
-                <div class="col-md-6 col-xs-6 image-s1 padding-none desktop-view">
-                    <img src="img/paralax1.png">
-                </div>
-                <div class="col-md-6 col-xs-6 text-s1">
-                <hr  width="40%" align="left" color:"pink" class="mobile-d-n">
-                    <h1>Bridal Artist</h1>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</p>
-                <button>More<i class="fa fa-angle-right" aria-hidden="true"></i>
-                </button>
-                </div>                
-                <div class="col-md-6 col-xs-6 image-s1 padding-none mobile-view">
-                    <img src="img/paralax1.png">
+                    </p>
+                <a href="services.php#service_five"><button class="default_button">More<i class="fa fa-angle-right" aria-hidden="true"></i>
+                </button></a>
                 </div>
             </div>
-
-            <div class="col-md-6 col-xs-12 padding-none desktop-view">
-                <div class="col-md-6 col-xs-6 image-s1 padding-none mobile-view">
-                    <img src="img/paralax1.png">
-                </div>
-                <div class="col-md-6 col-xs-6 text-s1">
-                <hr  width="40%" align="left" color:"pink" class="mobile-d-n">
-                    <h1>Bridal Artist</h1>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</p>
-                <button>More<i class="fa fa-angle-right" aria-hidden="true"></i>
-                </button>
-                </div>                
-                <div class="col-md-6 col-xs-6 image-s1 padding-none desktop-view-view">
-                    <img src="img/paralax1.png">
-                </div>
-            </div>
+            
         </div>
     </div>
 </section>
@@ -236,10 +275,42 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1>ELISA</h1>
+                    <h1>ELYSA</h1>
                     <h4 style="text-align: center;">Understanding every woman's style and preferences is the key to achieve the look you love.</h4>
-                    <p>Elisa has discovered her passion in her early teenage when she used to help her older sister with their make-up and hair-braiding. Elisa has decided to make it as a profession when she first arrived in new York city in 2001. Later with her passion growing more for beauty she earned a diploma in skin-care at Marinello Schools of Beauty and she is licensed esthetician in new York.</p>
-                    <a href="#contact"><button>Contact</button></a>
+                    <div class="col-md-4">
+                    <p>
+                    CT &amp; NY licensed Skincare Specialist, Eyebrow Contouring and makeup artist based in Connecticut 
+                    Elysa&#39;s passionate journey with makeup has begun in her early teen&#39;s age, thanks to her older sisters
+                    who routinely asked her to do their hair and create unique looks with makeup ever since Elysa has
+                    developed a passion for creativity and the satisfaction from helping people look at their best. 
+                    Throughout her career just to name a few she has enjoyed working for L.A Productions and
+                    entertainment, film director Wayne Holmes, numerous photographers, and Beauty at Your Door,
+                    providing on-location makeup services for brides and she has as well donated her services to local
+                    </p>
+                    </div>
+                    <div class="col-md-4">
+                    <p>
+                    events for charities as a way to give back to the community.Her early teen experience planted the seeds for her to pursue a career in makeup when she moved to
+                    New York City back in 2001. Later, drawing inspiration from &quot;ABOUTFACE&quot; Scott Barnes book (celebrity
+                    makeup artist) which talks about the secret of great make up is to have healthy skin; Elysa became a
+                    skincare specialist.
+                    Having a great canvas to work on it&#39;s the core to great make up which consequently asserted the value
+                    of offering facial treatments for every skin type and condition. Therefore, GLAMBYELYSA offers a bar equipped with the most advanced facial treatments which allows 
+                    </div>
+                    <div class="col-md-4">
+                    <p>
+                    us to help our clients&#39; skin to look young and healthy every day-- not just on their best days.
+                    Today, at GLAMBYELYSA our utmost joy is to observe your satisfaction with the variety of services we
+                    offer especially creating looks for brides on the most special day of their lives with our premier bridal
+                    services, event and commercial makeup artistry. 
+                    We believe the key success factor for a makeup artist is to understand the woman&#39;s style and
+                    personality in order to creating a look that truly reflects them while enhancing their best features. 
+                    In addition to makeup and skincare one of Elysa&#39;s specialties is eyebrow shaping and contouring which
+                    dramatically accentuates the features of the face in the most flattering way.</p>
+                    </div>
+                    <div class="col-md-12">
+                    <a href="#contact"><button class="default_button">Contact</button></a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -486,7 +557,7 @@
 
                                                 <div class="pswp__counter"></div>
 
-                                                <button class="pswp__button pswp__button--close" title="Close (Esc)"><i class="fa fa-times" aria-hidden="true"></i></button>
+                                                <button class="pswp__button pswp__button--close" title="Close (Esc)"><i title="Close (Esc)" class="fa fa-times pswp__button--close" aria-hidden="true"></i></button>
 
                                                 <button class="pswp__button pswp__button--share" title="Share"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
 
@@ -598,7 +669,7 @@
                     <p>JANUARY 12, 2016</p>
                       <h1>THIS BLOG <br>TITLE IS AWESOME</h1>
                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                      <button>Read More...</button>
+                      <button class="default_button">Read More...</button>
                     </div>
 
                 </div>
@@ -612,7 +683,7 @@
                     <p>JANUARY 12, 2016</p>
                       <h1>THIS BLOG <br>TITLE IS AWESOME</h1>
                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                      <button>Read More...</button>
+                      <button class="default_button">Read More...</button>
                     </div>
 
                 </div>
@@ -626,7 +697,7 @@
                     <p>JANUARY 12, 2016</p>
                       <h1>THIS BLOG <br>TITLE IS AWESOME</h1>
                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                      <button>Read More...</button>
+                      <button class="default_button">Read More...</button>
                     </div>
 
                 </div>
@@ -640,7 +711,7 @@
                     <p>JANUARY 12, 2016</p>
                       <h1>THIS BLOG <br>TITLE IS AWESOME</h1>
                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                      <button>Read More...</button>
+                      <button class="default_button">Read More...</button>
                     </div>
 
                 </div>
@@ -654,49 +725,7 @@
                     <p>JANUARY 12, 2016</p>
                       <h1>THIS BLOG <br>TITLE IS AWESOME</h1>
                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                      <button>Read More...</button>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="item">
-                <div class="">
-                    <img src="img/bottom-slider1.jpg" alt="test" class="img-responsive">
-
-                    <div class="overlayText">
-                    <p>JANUARY 12, 2016</p>
-                      <h1>THIS BLOG <br>TITLE IS AWESOME</h1>
-                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                      <button>Read More...</button>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="item">
-                <div class="">
-                    <img src="img/bottom-slider1.jpg" alt="test" class="img-responsive">
-
-                    <div class="overlayText">
-                    <p>JANUARY 12, 2016</p>
-                      <h1>THIS BLOG <br>TITLE IS AWESOME</h1>
-                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                      <button>Read More...</button>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="item">
-                <div class="">
-                    <img src="img/bottom-slider1.jpg" alt="test" class="img-responsive">
-
-                    <div class="overlayText">
-                    <p>JANUARY 12, 2016</p>
-                      <h1>THIS BLOG <br>TITLE IS AWESOME</h1>
-                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                      <button>Read More...</button>
+                      <button class="default_button">Read More...</button>
                     </div>
 
                 </div>
@@ -711,13 +740,13 @@
             <div class="container footer-name-social">
                 <div class="col-md-4 contact-section-mobile">
                     <p>Get in Touch With</p>
-                    <h1>ELISA</h1>
+                    <h1>ELYSA</h1>
                     <a href="https://web.facebook.com/glambyelisa?_rdr"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                     <i class="fa fa-twitter" aria-hidden="true"></i>
                     <i class="fa fa-pinterest-p" aria-hidden="true"></i>
                     <i class="fa fa-instagram" aria-hidden="true"></i>
                     <a href="https://www.thumbtack.com/-Dallas-TX/service/2630717"><i class="fa fa-thumb-tack" aria-hidden="true"></i></a>
-                    <p><a href="#">info@glambyelisa.com</a>
+                    <p><a href="#">info@glambyelysa.com</a>
                     </p>
                 </div>
                 <div class="col-md-8 footer-email-forms">
@@ -730,7 +759,7 @@
                         <textarea type="text" name="text" placeholder="Your Message" rows="8"></textarea>
                     </div>
                     <div class="col-md-12">
-                        <button class="button-big">Send <i class="fa fa-angle-right" aria-hidden="true"></i>
+                        <button class="button-big default_button">Send <i class="fa fa-angle-right" aria-hidden="true"></i>
                         </button>
                     </div>
                 </div>
@@ -753,6 +782,8 @@
             </div>
         </div>
     </footer>
+
+    <?php include 'modal_book_now.php';?>
 
 
     <!-- jQuery -->

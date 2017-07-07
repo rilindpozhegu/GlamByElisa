@@ -9,7 +9,9 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Elisa Portfolio</title>
+    <link rel="shortcut icon" type="image/png" href="img/logo-elisa1.png"/>
+    
+    <title>Elysa Portfolio</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -30,7 +32,7 @@
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 <!-- Preloader -->
     <div id="overlay">
-        <img src="img/logo-elisa1.png" >
+        <img src="img/logo-elisa1.png" class="preloader_img">
     </div>
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top navigtionbar-portfolio" role="navigation">
@@ -61,16 +63,16 @@
                         <a class="page-scroll" href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="#" href="index.php">HOME</a>
+                        <a class="#" href="http://glambyelisa.com/">HOME</a>
                     </li>
                     <li>
-                        <a class="#" href="#">PORTFOLIO</a>
+                        <a class="active2n" href="#">PORTFOLIO</a>
                     </li>
                     <li>
-                        <a class="#" href="services.html">SERVICES</a>
+                        <a class="#" href="services.php">SERVICES</a>
                     </li>
                     <li>
-                        <a class="#" href="contacts.html">CONTACTS</a>
+                        <a class="#" href="contacts.php">CONTACT</a>
                     </li>
                 </ul>
             </div>
@@ -84,11 +86,16 @@
         <div class="">
             <div class="col-md-12">
                 <img src="img/logo-elisa1.png">
-                <h1>GLAM<span>BY</span>ELISA</h1>
-                <p style="font-size: 23px;">PORTFOLIO</p>
+                <h1>PORTFOLIO</h1>
+                <!-- <p>PORTFOLIO</p> -->
             </div>
         </div>
     </section>
+  <style type="text/css">
+        .active2n {
+            color: #fff !important;
+        }
+    </style>
 
 
     
@@ -284,23 +291,7 @@
                                         </a>
                                     <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
 
-                                    </figure>
-                                    <figure class="iso-box graphic branding col-md-4 col-xs-6">
-                                        <a href="img/galery/img-g23-01.png" itemprop="contentUrl" data-size="2978x2086">
-                                            <img src="img/galery/img-g23-01.png" itemprop="thumbnail" alt="Image description" />
-                                        </a>
-                                    <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
-
-                                    </figure>
-
-                                    <figure class="iso-box graphic branding col-md-4 col-xs-6">
-                                        <a href="img/galery/img-g24-01.png" itemprop="contentUrl" data-size="2978x2086">
-                                            <img src="img/galery/img-g24-01.png" itemprop="thumbnail" alt="Image description" />
-                                        </a>
-                                    <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
-
-                                    </figure>
-
+                                    
                                     
 
 
