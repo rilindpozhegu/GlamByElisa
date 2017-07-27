@@ -18,9 +18,9 @@
                   <option value="" disabled selected>Services:</option>
                   <option>Facial Treatments Service</option>
                   <option>Waxing Service</option>
-                  <option>BROW BAR</option>
-                  <option>MAKE UP LOOKS $75 (all include lashes)</option>
-                  <option>HAIR UP DOS & STYLING $50-$75</option>
+                  <option>Brow Bar</option>
+                  <option>Make Up Looks</option>
+                  <option>Hair Up Dos & Styling</option>
                 </select>
                 </div>
                 <div class="col-md-6 small_padding_lr">

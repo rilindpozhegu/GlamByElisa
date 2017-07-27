@@ -69,6 +69,9 @@
                         <a class="#" href="http://glambyelisa.com/">HOME</a>
                     </li>
                     <li>
+                        <a class="#" href="about.php">ABOUT US</a>
+                    </li>
+                    <li>
                         <a class="#" href="portfolio.php">PORTFOLIO</a>
                     </li>
                     <li>
@@ -92,7 +95,7 @@
 
 
     <!-- MAPS -->
-    <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDIkvTNXiqlGHpsXsAYXHqH8Uf14hqhEIo'></script>
+<!--     <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDIkvTNXiqlGHpsXsAYXHqH8Uf14hqhEIo'></script>
     <div style='overflow:hidden;height:400px;width:100%;' class="mapcontainer">
         <div id='gmap_canvas' style='height:400px;width:100%;'></div>
         <style>
@@ -133,37 +136,42 @@
     .map-text {
         text-align: center;
     }
-</style>
+</style> -->
     <!-- Contact Section -->
     <section id="contact" class="contact-section">
         <div class="container">
-            <div class="container row footer-name-social">
-                <div class="col-md-4 contact-section-mobile">
-                    <p>Get in Touch With</p>
+            <div class="row footer-name-social">
+            <div class="col-md-5 contact_image desktop-d-n">
+                <img src="img/alb.png" class="img-responsive">
+            </div>
+            <div class="col-md-7 small_padding_lr">
+                <div class="col-md-12 contact-section-mobile">
+                    <h5>Get in Touch With</h5>
                     <h1>ELYSA</h1>
-                    <a href="https://web.facebook.com/glambyelisa?_rdr"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                    <i class="fa fa-pinterest-p" aria-hidden="true"></i>
-                    <i class="fa fa-instagram" aria-hidden="true"></i>
-                    <a href="https://www.thumbtack.com/-Dallas-TX/service/2630717"><i class="fa fa-thumb-tack" aria-hidden="true"></i></a>
-                    <a href="#">info@glambyelysa.com</a>
+                    <p>Send me a message with info on your project, including dates, times, <br>location and any other details you would like to share. I’ll be in touch soon!</p>
                 </div>
-                <div class="col-md-8 footer-email-forms">
-                    <div class="col-md-6">
+                <div class="col-md-12 footer-email-forms">
+                    <div class="col-md-6 small_padding_lr">
                         <input type="text" name="name" placeholder="Your Name">
                         <input type="text" name="name" placeholder="Your Email">
                         <input type="text" name="name" placeholder="Your Address">
                     </div>
-                    <div class="col-md-6">
-                        <textarea type="text" name="text" placeholder="Your Message" rows="8"></textarea>
+                    <div class="col-md-6 small_padding_lr">
+                        <textarea type="text" name="text" placeholder="Your Message" rows="7"></textarea>
                     </div>
-                    <div class="col-md-12">
-                        <button class="button-big">Send <i class="fa fa-angle-right" aria-hidden="true"></i></button>
+                    <div class="col-md-12 small_padding_lr">
+                        <button class="button-big">Submit <i class="fa fa-angle-right" aria-hidden="true"></i></button>
                     </div>
                 </div>
             </div>
+            <div class="col-md-5 contact_image mobile-d-n">
+                <img src="img/alb.png" class="img-responsive">
+            </div>
+            </div>
         </div>
     </section>
+
+
 
     <footer>
         <div class="container-fluid footer-bootom col-md-12">

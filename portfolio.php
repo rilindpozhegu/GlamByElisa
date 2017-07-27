@@ -118,179 +118,148 @@
                                 <div class="my-gallery row">
 
                                     <figure class="iso-box graphic branding col-md-6 col-xs-6">
-                                        <a href="img/galery/img-g1-01.png" itemprop="contentUrl" data-size="2978x2086">
-                                            <img src="img/galery/img-g1-01.png" itemprop="thumbnail" alt="Image description" />
+                                        <a href="img/galery/1.png" itemprop="contentUrl" data-size="2978x2086">
+                                            <img src="img/galery/1.png" itemprop="thumbnail" alt="Image description" />
                                         </a>
                                     <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
 
                                     </figure>
 
                                     <figure class="iso-box graphic branding col-md-2 col-xs-6">
-                                        <a href="img/galery/img-g2-01.png" itemprop="contentUrl" data-size="2978x2086">
-                                            <img src="img/galery/img-g2-01.png" itemprop="thumbnail" alt="Image description" />
+                                        <a href="img/galery/2.png" itemprop="contentUrl" data-size="2978x2086">
+                                            <img src="img/galery/2.png" itemprop="thumbnail" alt="Image description" />
                                         </a>
                                     <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
 
                                     </figure>
 
                                     <figure class="iso-box graphic branding col-md-2 col-xs-6">
-                                        <a href="img/galery/img-g3-01.png" itemprop="contentUrl" data-size="2978x2086">
-                                            <img src="img/galery/img-g3-01.png" itemprop="thumbnail" alt="Image description" />
+                                        <a href="img/galery/3.png" itemprop="contentUrl" data-size="2978x2086">
+                                            <img src="img/galery/3.png" itemprop="thumbnail" alt="Image description" />
                                         </a>
                                     <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
 
                                     </figure>
 
                                     <figure class="iso-box graphic branding col-md-2 col-xs-6">
-                                        <a href="img/galery/img-g4-01.png" itemprop="contentUrl" data-size="2978x2086">
-                                            <img src="img/galery/img-g4-01.png" itemprop="thumbnail" alt="Image description" />
+                                        <a href="img/galery/4.png" itemprop="contentUrl" data-size="2978x2086">
+                                            <img src="img/galery/4.png" itemprop="thumbnail" alt="Image description" />
                                         </a>
                                     <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
 
                                     </figure>
 
                                     <figure class="iso-box graphic branding col-md-2 col-xs-6">
-                                        <a href="img/galery/img-g5-01.png" itemprop="contentUrl" data-size="2978x2086">
-                                            <img src="img/galery/img-g5-01.png" itemprop="thumbnail" alt="Image description" />
+                                        <a href="img/galery/5.png" itemprop="contentUrl" data-size="2978x2086">
+                                            <img src="img/galery/5.png" itemprop="thumbnail" alt="Image description" />
                                         </a>
                                     <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
 
                                     </figure>
 
                                     <figure class="iso-box graphic branding col-md-2 col-xs-6">
-                                        <a href="img/galery/img-g6-01.png" itemprop="contentUrl" data-size="2978x2086">
-                                            <img src="img/galery/img-g6-01.png" itemprop="thumbnail" alt="Image description" />
+                                        <a href="img/galery/6.png" itemprop="contentUrl" data-size="2978x2086">
+                                            <img src="img/galery/6.png" itemprop="thumbnail" alt="Image description" />
                                         </a>
                                     <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
 
                                     </figure>
 
                                     <figure class="iso-box graphic branding col-md-2 col-xs-6">
-                                        <a href="img/galery/img-g7-01.png" itemprop="contentUrl" data-size="2978x2086">
-                                            <img src="img/galery/img-g7-01.png" itemprop="thumbnail" alt="Image description" />
+                                        <a href="img/galery/7.png" itemprop="contentUrl" data-size="2978x2086">
+                                            <img src="img/galery/7.png" itemprop="thumbnail" alt="Image description" />
                                         </a>
                                     <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
 
                                     </figure>
 
                                     <figure class="iso-box graphic branding col-md-2 col-xs-6">
-                                        <a href="img/galery/img-g8-01.png" itemprop="contentUrl" data-size="2978x2086">
-                                            <img src="img/galery/img-g8-01.png" itemprop="thumbnail" alt="Image description" />
+                                        <a href="img/galery/8.png" itemprop="contentUrl" data-size="2978x2086">
+                                            <img src="img/galery/8.png" itemprop="thumbnail" alt="Image description" />
                                         </a>
                                     <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
 
                                     </figure>
 
                                     <figure class="iso-box graphic branding col-md-2 col-xs-6">
-                                        <a href="img/galery/img-g9-01.png" itemprop="contentUrl" data-size="2978x2086">
-                                            <img src="img/galery/img-g9-01.png" itemprop="thumbnail" alt="Image description" />
+                                        <a href="img/galery/9.png" itemprop="contentUrl" data-size="2978x2086">
+                                            <img src="img/galery/9.png" itemprop="thumbnail" alt="Image description" />
                                         </a>
                                     <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
 
                                     </figure>
 
                                     <figure class="iso-box graphic branding col-md-2 col-xs-6">
-                                        <a href="img/galery/img-g10-01.png" itemprop="contentUrl" data-size="2978x2086">
-                                            <img src="img/galery/img-g10-01.png" itemprop="thumbnail" alt="Image description" />
+                                        <a href="img/galery/10.png" itemprop="contentUrl" data-size="2978x2086">
+                                            <img src="img/galery/10.png" itemprop="thumbnail" alt="Image description" />
                                         </a>
                                     <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
 
                                     </figure>
 
                                     <figure class="iso-box graphic branding col-md-2 col-xs-6">
-                                        <a href="img/galery/img-g11-01.png" itemprop="contentUrl" data-size="2978x2086">
-                                            <img src="img/galery/img-g11-01.png" itemprop="thumbnail" alt="Image description" />
+                                        <a href="img/galery/11.png" itemprop="contentUrl" data-size="2978x2086">
+                                            <img src="img/galery/11.png" itemprop="thumbnail" alt="Image description" />
                                         </a>
                                     <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
 
                                     </figure>
 
                                     <figure class="iso-box graphic branding col-md-2 col-xs-6">
-                                        <a href="img/galery/img-g12-01.png" itemprop="contentUrl" data-size="2978x2086">
-                                            <img src="img/galery/img-g12-01.png" itemprop="thumbnail" alt="Image description" />
+                                        <a href="img/galery/12.png" itemprop="contentUrl" data-size="2978x2086">
+                                            <img src="img/galery/12.png" itemprop="thumbnail" alt="Image description" />
                                         </a>
                                     <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
 
                                     </figure>
 
                                     <figure class="iso-box graphic branding col-md-2 col-xs-6">
-                                        <a href="img/galery/img-g13-01.png" itemprop="contentUrl" data-size="2978x2086">
-                                            <img src="img/galery/img-g13-01.png" itemprop="thumbnail" alt="Image description" />
+                                        <a href="img/galery/13.png" itemprop="contentUrl" data-size="2978x2086">
+                                            <img src="img/galery/13.png" itemprop="thumbnail" alt="Image description" />
                                         </a>
                                     <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
 
                                     </figure>
 
                                     <figure class="iso-box graphic branding col-md-2 col-xs-6">
-                                        <a href="img/galery/img-g14-01.png" itemprop="contentUrl" data-size="2978x2086">
-                                            <img src="img/galery/img-g14-01.png" itemprop="thumbnail" alt="Image description" />
+                                        <a href="img/galery/14.png" itemprop="contentUrl" data-size="2978x2086">
+                                            <img src="img/galery/14.png" itemprop="thumbnail" alt="Image description" />
                                         </a>
                                     <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
 
                                     </figure>
 
                                     <figure class="iso-box graphic branding col-md-2 col-xs-6">
-                                        <a href="img/galery/img-g15-01.png" itemprop="contentUrl" data-size="2978x2086">
-                                            <img src="img/galery/img-g15-01.png" itemprop="thumbnail" alt="Image description" />
+                                        <a href="img/galery/15.png" itemprop="contentUrl" data-size="2978x2086">
+                                            <img src="img/galery/15.png" itemprop="thumbnail" alt="Image description" />
                                         </a>
                                     <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
 
                                     </figure>
 
                                     <figure class="iso-box graphic branding col-md-2 col-xs-6">
-                                        <a href="img/galery/img-g16-01.png" itemprop="contentUrl" data-size="2978x2086">
-                                            <img src="img/galery/img-g16-01.png" itemprop="thumbnail" alt="Image description" />
+                                        <a href="img/galery/16.png" itemprop="contentUrl" data-size="2978x2086">
+                                            <img src="img/galery/16.png" itemprop="thumbnail" alt="Image description" />
                                         </a>
                                     <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
 
                                     </figure>
 
-                                    <figure class="iso-box graphic branding col-md-2 col-xs-6">
-                                        <a href="img/galery/img-g17-01.png" itemprop="contentUrl" data-size="2978x2086">
-                                            <img src="img/galery/img-g17-01.png" itemprop="thumbnail" alt="Image description" />
+                                    <figure class="iso-box graphic branding col-md-6 col-xs-6">
+                                        <a href="img/galery/17.png" itemprop="contentUrl" data-size="2978x2086">
+                                            <img src="img/galery/17.png" itemprop="thumbnail" alt="Image description" />
                                         </a>
                                     <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
 
                                     </figure>
 
-                                    <figure class="iso-box graphic branding col-md-2 col-xs-6">
-                                        <a href="img/galery/img-g18-01.png" itemprop="contentUrl" data-size="2978x2086">
-                                            <img src="img/galery/img-g18-01.png" itemprop="thumbnail" alt="Image description" />
+                                    <figure class="iso-box graphic branding col-md-6 col-xs-6">
+                                        <a href="img/galery/18.png" itemprop="contentUrl" data-size="2978x2086">
+                                            <img src="img/galery/18.png" itemprop="thumbnail" alt="Image description" />
                                         </a>
                                     <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
 
                                     </figure>
-
-                                    <figure class="iso-box graphic branding col-md-2 col-xs-6">
-                                        <a href="img/galery/img-g19-01.png" itemprop="contentUrl" data-size="2978x2086">
-                                            <img src="img/galery/img-g19-01.png" itemprop="thumbnail" alt="Image description" />
-                                        </a>
-                                    <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
-
-                                    </figure>
-
-                                    <figure class="iso-box graphic branding col-md-2 col-xs-6">
-                                        <a href="img/galery/img-g20-01.png" itemprop="contentUrl" data-size="2978x2086">
-                                            <img src="img/galery/img-g20-01.png" itemprop="thumbnail" alt="Image description" />
-                                        </a>
-                                    <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
-
-                                    </figure>
-
-                                    <figure class="iso-box graphic branding col-md-2 col-xs-6">
-                                        <a href="img/galery/img-g21-01.png" itemprop="contentUrl" data-size="2978x2086">
-                                            <img src="img/galery/img-g21-01.png" itemprop="thumbnail" alt="Image description" />
-                                        </a>
-                                    <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
-
-                                    </figure>
-
-                                    <figure class="iso-box graphic branding col-md-2 col-xs-6">
-                                        <a href="img/galery/img-g22-01.png" itemprop="contentUrl" data-size="2978x2086">
-                                            <img src="img/galery/img-g22-01.png" itemprop="thumbnail" alt="Image description" />
-                                        </a>
-                                    <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
-
                                     
                                     
 

@@ -1,0 +1,39 @@
+
+/*NAvigationbar*/
+.navigtionbar-portfolio {
+	background-color: #20222b;
+	border-color: #20222b;
+	color: #bc046e;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #bc046e;
+}
+.navigtionbar-portfolio img {
+	width: 91px;
+    padding: 10px 0px;
+}
+
+.navigationbar-image img {
+	width: 100px;
+}
+.socialmedia-navigationbar {
+	text-align: right;
+}
+.socialmedia-navigationbar i {
+	padding: 20px 40px 0px 0px;
+	color: #bc046e;
+}
+.navbar-toggle {
+    float: left;
+    padding-left: 20px;
+}
+/*Navigationbar text*/
+.navbar-default .navbar-nav>li>a {
+    font-size: 17px;
+    color: #bc046e;
+    font-family: 'Montserrat';
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #bc046e;
+    font-family: 'Montserrat';
+}

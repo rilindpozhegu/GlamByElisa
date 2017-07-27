@@ -170,7 +170,7 @@
 
             </div>
             <div class="col-md-5 text-grid">
-                <h1>BROW BAR</h1>
+                <h1>Brow Bar</h1>
                 <p style="font-size: 16px;">-Brow shaping and waxing$20(20min)<br>
                 -Brows waxing 12<br>
                 -Brow tinting 35$<br>
@@ -186,9 +186,11 @@
     <div class="section-4_cover container-fluid" id="service_four">
         <div class="row">
             <div class="col-md-5 text-grid">
-                <h1>MAKE UP LOOKS $75 (all include lashes)</h1>
+                <h1>Make Up Looks</h1>
                 <div class="col-md-12">
-                    <p style="font-size: 17px;">-Wedding make up $75 <br>
+                    <p style="font-size: 17px;">
+                    -Make Up Looks $75 (all include lashes)<br>
+                    -Wedding make up $75 <br>
                        - trial 70 <br>
                        -Photography <br>
                         -Night out <br>

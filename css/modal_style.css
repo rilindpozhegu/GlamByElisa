@@ -73,3 +73,7 @@
 	border: solid 1px #BC046E;
 	background-color: transparent;
 }
+
+.modal_text_details select option {
+	text-transform: capitalize !important;
+}
