@@ -55,8 +55,8 @@
             <div class="collapse navbar-collapse navbar-ex1-collapse navbar-right">
                 <p class="socialmedia-navigationbar">
                     <a href="https://web.facebook.com/glambyelisa?_rdr"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                    <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                    <!-- <i class="fa fa-twitter" aria-hidden="true"></i> -->
+                    <!-- <i class="fa fa-pinterest-p" aria-hidden="true"></i> -->
                     <i class="fa fa-instagram" aria-hidden="true"></i>
                     <a href="https://www.thumbtack.com/-Dallas-TX/service/2630717"><i class="fa fa-thumb-tack" aria-hidden="true"></i></a>
                 </p>
@@ -69,10 +69,10 @@
                         <a class="#" href="http://glambyelisa.com/">HOME</a>
                     </li>
                     <li>
-                        <a class="activeab" href="about.php">ABOUT</a>
+                        <a class="activeabo" href="about.php">ABOUT US</a>
                     </li>
                     <li>
-                        <a class="active2n" href="#">PORTFOLIO</a>
+                        <a class="active2n" href="portfolio.php">PORTFOLIO</a>
                     </li>
                     <li>
                         <a class="#" href="services.php">SERVICES</a>
@@ -86,6 +86,11 @@
         </div>
         <!-- /.container -->
     </nav>
+      <style type="text/css">
+        .activeabo {
+            color: #fff !important;
+        }
+    </style>
 
 
 <section class="about_section_one">
@@ -105,11 +110,30 @@
                 <p>We believe the key success factor for a makeup artist is to understand the woman's style and personality in order to creating a look that truly reflects them while enhancing their best features. 
                 In addition to makeup and skincare one of Elysa's specialties is eyebrow shaping and contouring which dramatically accentuates the features of the face in the most flattering way.
                 </p>
+
+                <button class="button-big default_button">Contact</button>
+            
             </div>
         </div>
     </div>
 </section>
 
+    <footer>
+        <div class="container-fluid footer-bootom col-md-12">
+            <div class="container">
+                <div class="col-md-6 rights-reserved">
+                    <a href="http://emiratesgraphic.com/"><p>© All rights reserved Emirates Graphic</p></a>
+                </div>
+                <div class="col-md-6 social-media-footer">
+                    <a href="https://web.facebook.com/glambyelisa?_rdr"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <!-- <i class="fa fa-twitter" aria-hidden="true"></i> -->
+                    <!-- <i class="fa fa-pinterest-p" aria-hidden="true"></i> -->
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                    <a href="https://www.thumbtack.com/-Dallas-TX/service/2630717"><i class="fa fa-thumb-tack" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>

@@ -56,8 +56,8 @@
             <div class="collapse navbar-collapse navbar-ex1-collapse navbar-right">
                 <p class="socialmedia-navigationbar">
                     <a href="https://web.facebook.com/glambyelisa?_rdr"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                    <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                    <!-- <i class="fa fa-twitter" aria-hidden="true"></i> -->
+                    <!-- <i class="fa fa-pinterest-p" aria-hidden="true"></i> -->
                     <i class="fa fa-instagram" aria-hidden="true"></i>
                     <a href="https://www.thumbtack.com/-Dallas-TX/service/2630717"><i class="fa fa-thumb-tack" aria-hidden="true"></i></a>
                 </p>
@@ -92,7 +92,7 @@
                         </li>
                     </li>
                     <li>
-                        <a class="page-scroll" href="about.php">ABOUT</a>
+                        <a class="page-scroll" href="about.php">ABOUT US</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="portfolio.php">PORTFOLIO</a>
@@ -123,27 +123,27 @@
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                    <img src="img/elisacover-01.png" alt="..." class="carousel-image">
+                    <img src="img/slider/homepage 1.jpg" alt="..." class="carousel-image">
                     <div class="carousel-caption">
-                        ...
+                        
                     </div>
                 </div>
                 <div class="item">
-                    <img src="img/elisacover-01.png" alt="..." class="carousel-image">
+                    <img src="img/slider/homepage 2.jpg" alt="..." class="carousel-image">
                     <div class="carousel-caption">
-                        ...
+                        
                     </div>
                 </div>
                 <div class="item">
-                    <img src="img/elisacover-01.png" alt="..." class="carousel-image">
+                    <img src="img/slider/homepage 3.jpg" alt="..." class="carousel-image">
                     <div class="carousel-caption">
-                        ...
+                        
                     </div>
                 </div>
                 <div class="item">
-                    <img src="img/elisacover-01.png" alt="..." class="carousel-image">
+                    <img src="img/slider/homepge 4.jpg" alt="..." class="carousel-image">
                     <div class="carousel-caption">
-                        ...
+                        
                     </div>
                 </div>
     </section>
@@ -166,7 +166,7 @@
         <div class="row">   
             <div class="twentygrid col-xs-12 padding-none first-panel-glam">
                 <div class="col-md-12 col-xs-6 image-s1 padding-none">
-                    <img src="img/paralax1.png">
+                    <img src="img/homeservices/makeup service front.jpg">
                     <div class="overlay_image_g">
                         <div class="text">
                            <button class="default_button" data-toggle="modal" data-target="#myModal">Book Now <i class="fa fa-angle-down" aria-hidden="true"></i></button>
@@ -175,27 +175,31 @@
                 </div>    
                 <div class="col-md-12 col-xs-6 text-s1">
                 <hr  width="40%" align="left" color:"pink" class="mobile-d-n">
-                    <h1>Facial Treatments Service</h1>
-                    <p>Acne facial $85 (75min)  <br>
-                    Chemical peels+led light $65-$85 (75 min)<br>
-                    Microdermabrasion $90 (60min) <br>
+                    <h1>Makeup and Trials</h1>
+                    <p>(all include lashes)<br>
+                    Wedding make up<br>
+                    Trial<br>
+                    Photography
                     </p>
+
                     <a href="services.php#service_one"><button class="default_button">More<i class="fa fa-angle-right" aria-hidden="true"></i></button></a>
                 </div>
             </div> 
             <div class="twentygrid col-xs-12 padding-none first-panel-glam">
                 <div class="col-md-12 col-xs-6 text-s1">
                 <hr  width="40%" align="left" color:"pink" class="mobile-d-n">
-                    <h1>Waxing Service</h1>
-                    <p>Lip -$6<br>
-                    Chin- $8<br>
-                    Cheeks- $5 each<br>
-                    Full Face - $25
+                    <h1>Bridal & Hair Updos</h1>
+                    <p>
+                    HAIR UP DOS & STYLING<br>
+                    Waves<br>
+                    Straight<br>
+                    Romantic<br>
+
                     </p>
                 <a href="services.php#service_two"><button class="default_button">More<i class="fa fa-angle-right" aria-hidden="true"></i></button></a>
                 </div>
                 <div class="col-md-12 col-xs-6 image-s1 padding-none">
-                    <img src="img/paralax2.png">
+                    <img src="img/homeservices/homepage 2.jpg">
                     <div class="overlay_image_g">
                         <div class="text">
                            <button class="default_button"  data-toggle="modal" data-target="#myModal">Book Now <i class="fa fa-angle-down" aria-hidden="true"></i></button>
@@ -205,7 +209,7 @@
             </div>
             <div class="twentygrid col-xs-12 padding-none first-panel-glam">
                 <div class="col-md-12 col-xs-6 image-s1 padding-none">
-                    <img src="img/paralax3.png">
+                    <img src="img/homeservices/homepge 4.jpg">
                     <div class="overlay_image_g">
                         <div class="text">
                            <button class="default_button"  data-toggle="modal" data-target="#myModal">Book Now <i class="fa fa-angle-down" aria-hidden="true"></i></button>
@@ -214,12 +218,10 @@
                 </div>
                 <div class="col-md-12 col-xs-6 text-s1">
                 <hr  width="40%" align="left" color:"pink" class="mobile-d-n">
-                    <h1>Brow Bar</h1>
-                    <p>-Brow shaping and waxing$20(20min)<br>
-                    -Brows waxing 12<br>
-                    -Brow tinting 35$<br>
-                    -(Microblading)coming soon
-
+                    <h1>Skincare Treatment</h1>
+                    <p>Acne facial<br>
+                    Chemical peels+led light<br>
+                    Microdermabrasion <br>
                     </p>
                 <a href="services.php#service_three"><button class="default_button">More<i class="fa fa-angle-right" aria-hidden="true"></i></button></a>
                 </div>
@@ -227,16 +229,17 @@
             <div class="twentygrid col-xs-12 padding-none first-panel-glam">
                 <div class="col-md-12 col-xs-6 text-s1">
                 <hr  width="40%" align="left" color:"pink" class="mobile-d-n">
-                    <h1>Make Up </h1>
-                    <p>-$75 (all include lashes)<br>
-                    -Wedding make up $75<br>
-                    -Trial 70<br>
-                    -Photography
+                    <h1>Brow Bar</h1>
+                    <p>Brow shaping and waxing<br>
+                    Brows waxing<br>
+                    Brow tinting<br>
+                    (Microblading)coming soon
+
                     </p>
                 <a href="services.php#service_four"><button class="default_button">More<i class="fa fa-angle-right" aria-hidden="true"></i></button></a>
                 </div>
                 <div class="col-md-12 col-xs-6 image-s1 padding-none">
-                    <img src="img/paralax2.png">
+                    <img src="img/homeservices/Brow service front.jpg">
                     <div class="overlay_image_g">
                         <div class="text">
                            <button class="default_button"  data-toggle="modal" data-target="#myModal">Book Now <i class="fa fa-angle-down" aria-hidden="true"></i></button>
@@ -246,7 +249,7 @@
             </div>
             <div class="twentygrid col-xs-12 padding-none first-panel-glam">
                 <div class="col-md-12 col-xs-6 image-s1 padding-none">
-                    <img src="img/paralax3.png">
+                    <img src="img/homeservices/waxing service front.jpg">
                     <div class="overlay_image_g">
                         <div class="text">
                            <button class="default_button"  data-toggle="modal" data-target="#myModal">Book Now <i class="fa fa-angle-down" aria-hidden="true"></i></button>
@@ -255,13 +258,11 @@
                 </div>
                 <div class="col-md-12 col-xs-6 text-s1">
                 <hr  width="40%" align="left" color:"pink" class="mobile-d-n">
-                    <h1>Hair Up Dos & Styling</h1>
-                    <p>
-                    -HAIR UP DOS & STYLING $50-$75<br>
-                    -Waves<br>
-                    -Straight<br>
-                    -Romantic<br>
-
+                    <h1>Waxing</h1>
+                    <p>Lip<br>
+                    Chin<br>
+                    Cheeks<br>
+                    Full Face
                     </p>
                 <a href="services.php#service_five"><button class="default_button">More<i class="fa fa-angle-right" aria-hidden="true"></i>
                 </button></a>
@@ -274,7 +275,7 @@
 
 
     <!-- About Section -->
-    <section id="about" class="about-section container-fluid about-section1">
+<!--     <section id="about" class="about-section container-fluid about-section1">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -310,14 +311,14 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
 
     <!-- Portfolio section
 ================================================== -->
 <div id="galery-id"></div>
 <section id="portfolio" class="portfolio-section-home">
-   <div class="container">
+   <div class="container-fluid">
       <div class="row">
 
          <div class="col-md-12 col-sm-12">
@@ -566,9 +567,9 @@
                         <img src="img/logo-elisa.png">
                         <div class="row">
                             <div class="#">
-                                <h3>Lady Clara</h3>
+                                <h3>Elysa</h3>
                                 <!-- <span>GENERAL MANAGER</span> -->
-                                <p>"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s," </p>
+                                <p>“Beauty about enhancing what you have. Let Yourself shine through”</p>
                             </div>
                         </div>  
                     </div>
@@ -577,8 +578,8 @@
                         <img src="img/logo-elisa.png">
                         <div class="row">
                             <div class="#">
-                                <h3>Lady Clara</h3>
-                                <p>"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s," </p>
+                                <h3>Elysa</h3>
+                                <p>”Happy girls are the prettiest” </p>
                             </div>
                         </div>  
                     </div>
@@ -587,8 +588,8 @@
                         <img src="img/logo-elisa.png">
                         <div class="row">
                             <div class="#">
-                                <h3>Lady Clara</h3>
-                                <p>"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s," </p>
+                                <h3>Elysa</h3>
+                                <p>"Beauty is being the best possible version of yourself inside and out”</p>
                             </div>
                         </div>  
                     </div>
@@ -603,7 +604,7 @@
 
 <div class="clearfix"></div>
     <!-- Slide Images Carocel -->
-    <div class="container-fluid bottom-slider_images">
+<!--     <div class="container-fluid bottom-slider_images">
     <div class="container">
     <h3>Read Our</h3>
     <h1>BLOG</h1>
@@ -681,7 +682,7 @@
 
         </div>
     </div>
-</div>
+</div> -->
 
     <!-- Contact Section -->
     <section id="contact" class="contact-section">
@@ -722,8 +723,8 @@
                 </div>
                 <div class="col-md-6 social-media-footer">
                     <a href="https://web.facebook.com/glambyelisa?_rdr"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                    <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                    <!-- <i class="fa fa-twitter" aria-hidden="true"></i> -->
+                    <!-- <i class="fa fa-pinterest-p" aria-hidden="true"></i> -->
                     <i class="fa fa-instagram" aria-hidden="true"></i>
                     <a href="https://www.thumbtack.com/-Dallas-TX/service/2630717"><i class="fa fa-thumb-tack" aria-hidden="true"></i></a>
                 </div>

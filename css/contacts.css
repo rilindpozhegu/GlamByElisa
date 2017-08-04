@@ -205,6 +205,23 @@
     }
 }
 
+/*Desktop view*/
+@media only screen and (min-width: 844px) {
+    .mobile-view{
+    display: none;
+    }
+}
+@media only screen and (max-width: 844px) {
+    .contact_image img {
+    height: 242px;
+    width: 100%;
+    object-fit: cover;
+}
+.navigtionbar-portfolio img {
+        display: none;
+    }
+}
+
 
 .gmnoprint {
   display: none !important;

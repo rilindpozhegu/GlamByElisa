@@ -145,6 +145,11 @@ input, button, select {
 }*/
 .carousel-image {
     height: 100vh !important;
+    object-fit: cover;
+    opacity: 0.4;
+}
+.carousel-inner>.item {
+    background-color: black;
 }
 
 .logo-slider-over {
@@ -250,6 +255,7 @@ input, button, select {
 .section1 .image-s1 img{
     width: 100%;
     height: 41vh;
+    object-fit: cover;
 }
 
 
@@ -262,7 +268,7 @@ input, button, select {
       width: 100%;
       height: 0;
       transition: .5s ease;
-      background-color: #20222B;
+    background-color: rgba(32, 34, 43, 0.69);
 }
 
 .image-s1:hover .overlay_image_g {
@@ -745,7 +751,7 @@ input, button, select {
 }
     .carousel-image {
     position: absolute;
-    left: -273px;
+    /*left: -273px;*/
 }
 
     .twentygrid {

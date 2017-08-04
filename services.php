@@ -56,8 +56,8 @@
             <div class="collapse navbar-collapse navbar-ex1-collapse navbar-right">
                 <p class="socialmedia-navigationbar">
                     <a href="https://web.facebook.com/glambyelisa?_rdr"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                    <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                    <!-- <i class="fa fa-twitter" aria-hidden="true"></i> -->
+                    <!-- <i class="fa fa-pinterest-p" aria-hidden="true"></i> -->
                     <i class="fa fa-instagram" aria-hidden="true"></i>
                     <a href="https://www.thumbtack.com/-Dallas-TX/service/2630717"><i class="fa fa-thumb-tack" aria-hidden="true"></i></a>
                 </p>
@@ -68,6 +68,9 @@
                     </li>
                     <li>
                         <a class="#" href="http://glambyelisa.com/">HOME</a>
+                    </li>
+                    <li>
+                        <a class="active2n" href="about.php">ABOUT US</a>
                     </li>
                     <li>
                         <a class="#" href="portfolio.php">PORTFOLIO</a>
@@ -241,8 +244,8 @@
                 </div>
                 <div class="col-md-6 social-media-footer">
                     <a href="https://web.facebook.com/glambyelisa?_rdr"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                    <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                    <!-- <i class="fa fa-twitter" aria-hidden="true"></i> -->
+                    <!-- <i class="fa fa-pinterest-p" aria-hidden="true"></i> -->
                     <i class="fa fa-instagram" aria-hidden="true"></i>
                     <a href="https://www.thumbtack.com/-Dallas-TX/service/2630717"><i class="fa fa-thumb-tack" aria-hidden="true"></i></a>
                 </div>

@@ -32,6 +32,48 @@
 	font-family: 'GOTHAM-Regular';
 }
 
-.activeab {
-	color: white !important;
+.about_section_one button {
+    width: 148px;
+    height: 37px;
+    background-color: #bc046e;
+    color: white;
+    border: transparent;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+
+
+/*Desktop view*/
+@media only screen and (min-width: 844px) {
+    .mobile-view{
+    display: none;
+    }
+}
+@media only screen and (max-width: 844px) {
+    .about_section_one h1 {
+    color: #20222b !important;
+    font-size: 45px;
+    letter-spacing: -3px;
+    font-family: 'GOTHAM-BOLD';
+}
+.about_section_one {
+    background-image: url(../img/bg/about.png);
+    width: 100%;
+    background-size: cover;
+    background-position: 50px 65px;
+    background-repeat: no-repeat;
+    padding-top: 21%;
+    padding-bottom: 5%;
+}
+.navigtionbar-portfolio img {
+    display: none;
+}
+.contact-section {
+    padding-top: 35%;
+    padding-bottom: 6%;
+    text-align: left;
+    background: white;
+}
+
 }
