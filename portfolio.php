@@ -89,7 +89,7 @@
         <div class="">
             <div class="col-md-12">
                 <img src="img/logo-elisa1.png">
-                <h1>PORTFOLIO</h1>
+                <h1>GLAM<span>BY</span>ELYSA</h1>
                 <!-- <p>PORTFOLIO</p> -->
             </div>
         </div>
@@ -104,243 +104,32 @@
     
    <!-- Portfolio section
 ================================================== -->
-<div id="galery-id"></div>
-<section id="portfolio" class="portfolio-section-home" style="padding: 0px;">
-   <div class="container-fluid">
-      <div class="row">
-
-         <div class="col-md-12 col-sm-12">
-            
-               <!-- iso section -->
-               <div class="iso-section"> 
-                        <!-- iso box section -->
-                        <div class="clearfix"></div>
-                        <div class="iso-box-section">
-                           <div class="iso-box-wrapper">
-
-                                <div class="my-gallery row">
-
-                                    <figure class="iso-box graphic branding col-md-6 col-xs-6">
-                                        <a href="img/galery/1.png" itemprop="contentUrl" data-size="2978x2086">
-                                            <img src="img/galery/1.png" itemprop="thumbnail" alt="Image description" />
-                                        </a>
-                                    <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
-
-                                    </figure>
-
-                                    <figure class="iso-box graphic branding col-md-2 col-xs-6">
-                                        <a href="img/galery/2.png" itemprop="contentUrl" data-size="2978x2086">
-                                            <img src="img/galery/2.png" itemprop="thumbnail" alt="Image description" />
-                                        </a>
-                                    <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
-
-                                    </figure>
-
-                                    <figure class="iso-box graphic branding col-md-2 col-xs-6">
-                                        <a href="img/galery/3.png" itemprop="contentUrl" data-size="2978x2086">
-                                            <img src="img/galery/3.png" itemprop="thumbnail" alt="Image description" />
-                                        </a>
-                                    <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
-
-                                    </figure>
-
-                                    <figure class="iso-box graphic branding col-md-2 col-xs-6">
-                                        <a href="img/galery/4.png" itemprop="contentUrl" data-size="2978x2086">
-                                            <img src="img/galery/4.png" itemprop="thumbnail" alt="Image description" />
-                                        </a>
-                                    <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
-
-                                    </figure>
-
-                                    <figure class="iso-box graphic branding col-md-2 col-xs-6">
-                                        <a href="img/galery/5.png" itemprop="contentUrl" data-size="2978x2086">
-                                            <img src="img/galery/5.png" itemprop="thumbnail" alt="Image description" />
-                                        </a>
-                                    <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
-
-                                    </figure>
-
-                                    <figure class="iso-box graphic branding col-md-2 col-xs-6">
-                                        <a href="img/galery/6.png" itemprop="contentUrl" data-size="2978x2086">
-                                            <img src="img/galery/6.png" itemprop="thumbnail" alt="Image description" />
-                                        </a>
-                                    <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
-
-                                    </figure>
-
-                                    <figure class="iso-box graphic branding col-md-2 col-xs-6">
-                                        <a href="img/galery/7.png" itemprop="contentUrl" data-size="2978x2086">
-                                            <img src="img/galery/7.png" itemprop="thumbnail" alt="Image description" />
-                                        </a>
-                                    <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
-
-                                    </figure>
-
-                                    <figure class="iso-box graphic branding col-md-2 col-xs-6">
-                                        <a href="img/galery/8.png" itemprop="contentUrl" data-size="2978x2086">
-                                            <img src="img/galery/8.png" itemprop="thumbnail" alt="Image description" />
-                                        </a>
-                                    <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
-
-                                    </figure>
-
-                                    <figure class="iso-box graphic branding col-md-2 col-xs-6">
-                                        <a href="img/galery/9.png" itemprop="contentUrl" data-size="2978x2086">
-                                            <img src="img/galery/9.png" itemprop="thumbnail" alt="Image description" />
-                                        </a>
-                                    <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
-
-                                    </figure>
-
-                                    <figure class="iso-box graphic branding col-md-2 col-xs-6">
-                                        <a href="img/galery/10.png" itemprop="contentUrl" data-size="2978x2086">
-                                            <img src="img/galery/10.png" itemprop="thumbnail" alt="Image description" />
-                                        </a>
-                                    <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
-
-                                    </figure>
-
-                                    <figure class="iso-box graphic branding col-md-2 col-xs-6">
-                                        <a href="img/galery/11.png" itemprop="contentUrl" data-size="2978x2086">
-                                            <img src="img/galery/11.png" itemprop="thumbnail" alt="Image description" />
-                                        </a>
-                                    <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
-
-                                    </figure>
-
-                                    <figure class="iso-box graphic branding col-md-2 col-xs-6">
-                                        <a href="img/galery/12.png" itemprop="contentUrl" data-size="2978x2086">
-                                            <img src="img/galery/12.png" itemprop="thumbnail" alt="Image description" />
-                                        </a>
-                                    <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
-
-                                    </figure>
-
-                                    <figure class="iso-box graphic branding col-md-2 col-xs-6">
-                                        <a href="img/galery/13.png" itemprop="contentUrl" data-size="2978x2086">
-                                            <img src="img/galery/13.png" itemprop="thumbnail" alt="Image description" />
-                                        </a>
-                                    <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
-
-                                    </figure>
-
-                                    <figure class="iso-box graphic branding col-md-2 col-xs-6">
-                                        <a href="img/galery/14.png" itemprop="contentUrl" data-size="2978x2086">
-                                            <img src="img/galery/14.png" itemprop="thumbnail" alt="Image description" />
-                                        </a>
-                                    <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
-
-                                    </figure>
-
-                                    <figure class="iso-box graphic branding col-md-2 col-xs-6">
-                                        <a href="img/galery/15.png" itemprop="contentUrl" data-size="2978x2086">
-                                            <img src="img/galery/15.png" itemprop="thumbnail" alt="Image description" />
-                                        </a>
-                                    <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
-
-                                    </figure>
-
-                                    <figure class="iso-box graphic branding col-md-2 col-xs-6">
-                                        <a href="img/galery/16.png" itemprop="contentUrl" data-size="2978x2086">
-                                            <img src="img/galery/16.png" itemprop="thumbnail" alt="Image description" />
-                                        </a>
-                                    <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
-
-                                    </figure>
-
-                                    <figure class="iso-box graphic branding col-md-6 col-xs-6">
-                                        <a href="img/galery/17.png" itemprop="contentUrl" data-size="2978x2086">
-                                            <img src="img/galery/17.png" itemprop="thumbnail" alt="Image description" />
-                                        </a>
-                                    <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
-
-                                    </figure>
-
-                                    <figure class="iso-box graphic branding col-md-6 col-xs-6">
-                                        <a href="img/galery/18.png" itemprop="contentUrl" data-size="2978x2086">
-                                            <img src="img/galery/18.png" itemprop="thumbnail" alt="Image description" />
-                                        </a>
-                                    <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
-
-                                    </figure>
-                                    
-                                    
 
 
-                                </div>
-                                <!-- Root element of PhotoSwipe. Must have class pswp. -->
-                                <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+<div>
 
-                                    <!-- Background of PhotoSwipe. 
-                                     It's a separate element, as animating opacity is faster than rgba(). -->
-                                    <div class="pswp__bg"></div>
+  <!-- Nav tabs -->
+  <div class="navigation_portfolio__">
+  <div class="container">
+  <ul class="nav nav-pills" role="tablist">
+    <li role="presentation" class="active"><a href="#one" aria-controls="one" role="tab" data-toggle="tab">Makeup and Trials</a></li>
+    <li role="presentation"><a href="#two" aria-controls="profile" role="tab" data-toggle="tab">Bridal & Hair Updos</a></li>
+    <li role="presentation"><a href="#three" aria-controls="messages" role="tab" data-toggle="tab">Skincare Treatment</a></li>
+    <li role="presentation"><a href="#four" aria-controls="settings" role="tab" data-toggle="tab">Brow Bar</a></li>
+    <li role="presentation"><a href="#five" aria-controls="settings" role="tab" data-toggle="tab">Waxing</a></li>
+  </ul>
+  </div>
+</div>
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="one"><?php include 'makeuptrials.php';?></div>
+    <div role="tabpanel" class="tab-pane" id="two"><?php include 'bridal_hair.php';?></div>
+    <div role="tabpanel" class="tab-pane" id="three"><?php include 'skincare_trat.php';?></div>
+    <div role="tabpanel" class="tab-pane" id="four"><?php include 'brow_bar.php';?></div>
+    <div role="tabpanel" class="tab-pane" id="five"><?php include 'waxing.php';?></div>
+  </div>
 
-                                    <!-- Slides wrapper with overflow:hidden. -->
-                                    <div class="pswp__scroll-wrap">
-
-                                        <!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
-                                        <!-- don't modify these 3 pswp__item elements, data is added later on. -->
-                                        <div class="pswp__container">
-                                            <div class="pswp__item"></div>
-                                            <div class="pswp__item"></div>
-                                            <div class="pswp__item"></div>
-                                        </div>
-
-                                        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
-                                        <div class="pswp__ui pswp__ui--hidden">
-
-                                            <div class="pswp__top-bar">
-
-                                                <!--  Controls are self-explanatory. Order can be changed. -->
-
-                                                <div class="pswp__counter"></div>
-
-                                                <button class="pswp__button pswp__button--close" title="Close (Esc)"><i class="fa fa-times" aria-hidden="true"></i></button>
-
-                                                <button class="pswp__button pswp__button--share" title="Share"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
-
-                                                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"><i class="fa fa-arrows-alt" aria-hidden="true"></i></button>
-
-                                                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"><i class="fa fa-search-plus" aria-hidden="true"></i></button>
-
-                                                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
-                                                <!-- element will get class pswp__preloader--active when preloader is running -->
-                                                <div class="pswp__preloader">
-                                                    <div class="pswp__preloader__icn">
-                                                        <div class="pswp__preloader__cut">
-                                                            <div class="pswp__preloader__donut"></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                                                <div class="pswp__share-tooltip"></div>
-                                            </div>
-
-                                            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"><i class="fa fa-chevron-left" aria-hidden="true"></i>
-                                            </button>
-
-                                            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"><i class="fa fa-chevron-right" aria-hidden="true"></i>
-                                            </button>
-
-                                            <div class="pswp__caption">
-                                                <div class="pswp__caption__center"></div>
-                                            </div>
-
-                                        </div>
-
-                                    </div>
-
-                                </div>                              
-                            </div>
-                        </div>
-               </div>
-         </div>
-
-      </div>
-   </div>
-</section>
+</div>
 
 
 
@@ -384,10 +173,9 @@
     <!-- Galery Script -->
     <script type="text/javascript" src="js/galery-script.js"></script>
     <script type="text/javascript">
-        $('.nav a').on('click', function() {
-            $('.btn-navbar').click(); //bootstrap 2.x
-            $('.navbar-toggle').click() //bootstrap 3.x by Richard
-        });
+        $('.nav a').click(function(){
+    $('.nav-collapse').collapse('hide');
+});
     </script>
 </body>
 

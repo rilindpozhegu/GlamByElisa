@@ -23,13 +23,6 @@
     <link rel="stylesheet" type="text/css" href="css/modal_style.css">
     <link rel="stylesheet" type="text/css" href="css/preloader.css">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
 </head>
 
 <body>
@@ -93,13 +86,59 @@
         }
     </style>
 
-    <div class="section-1_cover container-fluid" id="service_one">
+    <div class="section-4_cover container-fluid" id="service_four">
         <div class="row">
+            <div class="col-md-5 text-grid">
+                <h1>Makeup and Trials</h1>
+                <div class="col-md-12">
+                    <p style="font-size: 17px;">
+                    -Make Up Looks $75 (all include lashes)<br>
+                    -Wedding make up $75 <br>
+                       - trial 70 <br>
+                       -Photography <br>
+                        -Night out <br>
+                       - Flawless <br>
+                        -Glamorous <br>
+                       -trendy <br>
+                       -classic <br>
+                       &nbsp;
+                    </p>
+                       <a href="#contact"><button class="default_button"  data-toggle="modal" data-target="#myModal">Book Now <i class="fa fa-angle-down" aria-hidden="true"></i></button></a>
+                </div>
+            </div>
             <div class="col-md-7 blank-grid">
 
             </div>
+        </div>
+
+    </div>
+
+    <div class="section-5_cover container-fluid" id="service_three">
+        <div class="row">
+            <div class="col-md-7 blank-grid">
+
+            </div>            
+            <div class="col-md-5 text-grid">
+                <h1>Bridal & Hair Updos</h1>
+                <div class="col-md-12">
+                <p style="font-size: 17px;">-Waves <br>
+                -Straight <br>
+                -Romantic<br>
+                -Messy up do with braid <br>
+                       &nbsp;<br>
+                       &nbsp;
+                </p>
+                       <a href="#contact"><button class="default_button"  data-toggle="modal" data-target="#myModal">Book Now <i class="fa fa-angle-down" aria-hidden="true"></i></button></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="section-1_cover container-fluid" id="service_one">
+        <div class="row">
             <div class="col-md-5 text-grid" style="padding: 1% 20px;">
-                <h1>Facial Treatments Service</h1>
+                <h1>Skincare Treatment</h1>
                 <div class="col-md-6">
                     <p>Acne facial $85 (75min)  <br>
                     Chemical peels+led light $65-$85 (75 min) <br>
@@ -139,10 +178,33 @@
                     <a href="#contact"><button class="default_button"  data-toggle="modal" data-target="#myModal">Book Now <i class="fa fa-angle-down" aria-hidden="true"></i></button></a>
                 </div>
             </div>
+            <div class="col-md-7 blank-grid">
+
+            </div>
         </div>
 
     </div>
 
+    <div class="section-3_cover container-fluid" id="service_three">
+        <div class="row">
+            <div class="col-md-7 blank-grid">
+
+            </div>
+            <div class="col-md-5 text-grid">
+                <h1>Brow Bar</h1>
+                <p style="font-size: 16px;">-Brow shaping and waxing$20(20min)<br>
+                -Brows waxing 12<br>
+                -Brow tinting 35$<br>
+                -(Microblading)coming soon<br>
+                       &nbsp;<br>
+                       &nbsp;
+                </p>
+                       <a href="#contact"><button class="default_button"  data-toggle="modal" data-target="#myModal">Book Now <i class="fa fa-angle-down" aria-hidden="true"></i></button></a>
+            </div>
+        </div>
+
+    </div>
+    
     <div class="section-2_cover container-fluid" id="service_two">
         <div class="row">
             <div class="col-md-5 text-grid">
@@ -167,74 +229,8 @@
         </div>
 
     </div>
-    <div class="section-3_cover container-fluid" id="service_three">
-        <div class="row">
-            <div class="col-md-7 blank-grid">
-
-            </div>
-            <div class="col-md-5 text-grid">
-                <h1>Brow Bar</h1>
-                <p style="font-size: 16px;">-Brow shaping and waxing$20(20min)<br>
-                -Brows waxing 12<br>
-                -Brow tinting 35$<br>
-                -(Microblading)coming soon<br>
-                       &nbsp;<br>
-                       &nbsp;
-                </p>
-                       <a href="#contact"><button class="default_button"  data-toggle="modal" data-target="#myModal">Book Now <i class="fa fa-angle-down" aria-hidden="true"></i></button></a>
-            </div>
-        </div>
-
-    </div>
-    <div class="section-4_cover container-fluid" id="service_four">
-        <div class="row">
-            <div class="col-md-5 text-grid">
-                <h1>Make Up Looks</h1>
-                <div class="col-md-12">
-                    <p style="font-size: 17px;">
-                    -Make Up Looks $75 (all include lashes)<br>
-                    -Wedding make up $75 <br>
-                       - trial 70 <br>
-                       -Photography <br>
-                        -Night out <br>
-                       - Flawless <br>
-                        -Glamorous <br>
-                       -trendy <br>
-                       -classic <br>
-                       &nbsp;
-                    </p>
-                       <a href="#contact"><button class="default_button"  data-toggle="modal" data-target="#myModal">Book Now <i class="fa fa-angle-down" aria-hidden="true"></i></button></a>
-                </div>
-            </div>
-            <div class="col-md-7 blank-grid">
-
-            </div>
-        </div>
-
-    </div>
 
 
-    <div class="section-5_cover container-fluid" id="service_three">
-        <div class="row">
-            <div class="col-md-7 blank-grid">
-
-            </div>            
-            <div class="col-md-5 text-grid">
-                <h1>HAIR UP DOS & STYLING $50-$75</h1>
-                <div class="col-md-12">
-                <p style="font-size: 17px;">-Waves <br>
-                -Straight <br>
-                -Romantic<br>
-                -Messy up do with braid <br>
-                       &nbsp;<br>
-                       &nbsp;
-                </p>
-                       <a href="#contact"><button class="default_button"  data-toggle="modal" data-target="#myModal">Book Now <i class="fa fa-angle-down" aria-hidden="true"></i></button></a>
-                </div>
-            </div>
-        </div>
-
-    </div>
 
     <footer>
         <div class="container-fluid footer-bootom col-md-12">

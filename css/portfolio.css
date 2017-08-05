@@ -1,7 +1,3 @@
-body {
-	background-color: #20222b;
-}
-
 @font-face {
   font-family: 'Montserrat';
   src: url('../fonts/Montserrat-Regular.ttf');
@@ -51,10 +47,11 @@ body {
 .portfolio-cover {
 	margin-top: 5%;
 	padding: 150px 0px;
-	background-image: url('../img/portfolio-cover.png');
-	padding-top: 226px;
-    padding-bottom: 400px;
+	/*background-image: url('../img/portfolio-cover.png');*/
+	padding-top: 15%;
+    padding-bottom: 25%;
 	width: 100%;
+	background-color: #f2f2f2;
 	text-align: center;
 	color: white;/*
 	border-bottom: solid 15px goldenrod;*/
@@ -120,6 +117,91 @@ body {
 }
 
 
+/*-------------------*/
+
+/*   NEW PORTFOLIO   */
+
+/*-------------------*/
+.navigation_portfolio__ {
+	width: 100%;
+    background: white;
+    text-align: center;
+}
+.navigation_portfolio__ li {
+	width: 20%;
+}
+
+.navigation_portfolio__ .nav-pills>li+li {
+	margin: 0px;
+}
+
+.navigation_portfolio__ .nav-pills>li>a {
+    border-radius: 0px;
+    height: 65px;
+    padding: 20px;
+    color: #808080;
+    font-size: 17px;
+    border: solid 1px #e6e6e6;
+    transition: ease all 0.2s;
+}
+
+.navigation_portfolio__ .nav-pills>li>a:hover {
+    color: #fff !important;
+    background-color: #bc046e;
+    opacity: 0.8;
+    border: solid 1px #bc046e;
+    transition: ease all 0.2s;
+}
+
+.navigation_portfolio__ .nav-pills>li.active>a, .navigation_portfolio__ .nav-pills>li.active>a:focus {
+    color: #fff !important;
+    background-color: #bc046e;
+    border: solid 1px #bc046e;
+    transition: ease all 0.2s;
+}
+
+ .navigation_portfolio__ .nav-pills>li.active>a:hover {
+ 	opacity: 0.8;
+ 	transition: ease all 0.2s;
+ }
+
+
+.portfolio-section-home .col-md-6 img {
+	height: 600px;
+	object-fit: cover;
+}
+.portfolio-section-home .col-md-3 img {
+	height: 300px;
+	object-fit: cover;
+}
+.portfolio-section-home .col-md-4 img {
+	height: 400px;
+	object-fit: cover;
+}
+
+
+
+.portfolio-section-home img {
+  -moz-transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.portfolio-section-home img:hover {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.iso-box {
+  position: relative;
+  
+  border: 1px solid #333;
+  margin: 2%;
+  overflow: hidden;
+}
+
+
+
 /*Desktop*/
 @media only screen and (min-width: 500px) {
    .paralax-mobile-mode img{
@@ -153,4 +235,23 @@ body {
 .portfolio-cover h1 {
 	font-size: 16px;
 }
+
+.navigation_portfolio__ li {
+    width: 100%;
+}
+
+
+.portfolio-section-home .col-md-6 img {
+	height: 150px;
+	object-fit: cover;
+}
+.portfolio-section-home .col-md-3 img {
+	height: 150px;
+	object-fit: cover;
+}
+.portfolio-section-home .col-md-4 img {
+	height: 150px;
+	object-fit: cover;
+}
+
 }

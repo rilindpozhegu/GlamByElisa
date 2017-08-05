@@ -56,11 +56,11 @@ body {
 
 /* Sections */
 /*Section 1*/
-.section-1_cover {
+.section-4_cover {
 	margin-top: 9%;
 }
 .section-1_cover {
-	background-image: url('../img/section1.png');
+	background-image: url('../img/skincare/skincare (2).jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 40%;
@@ -108,7 +108,7 @@ body {
 /*Section 2*/
 .section-2_cover {
 	margin-top: 0px;
-	background-image: url('../img/section2.png');
+	background-image: url('../img/waxing/waxing (2).jpg');
     background-position: 70%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -117,7 +117,7 @@ body {
 /*Section 3*/
 .section-3_cover {
 	margin-top: 0px;
-	background-image: url('../img/section3.png');
+	background-image: url('../img/brow/Brow service front.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -125,14 +125,14 @@ body {
 /*Section 4*/
 .section-4_cover {
 	margin-top: 0px;
-	background-image: url('../img/section4.png');
+	background-image: url('../img/makeup/makeup (12).jpg');
     background-size: cover;
     background-position: 80%;
     background-repeat: no-repeat;
 }
 .section-5_cover {
     margin-top: 0px;
-    background-image: url('../img/section5.png');
+    background-image: url('../img/bridai/bridai (3).jpg');
     background-size: cover;
     background-position: 80%;
     background-repeat: no-repeat;

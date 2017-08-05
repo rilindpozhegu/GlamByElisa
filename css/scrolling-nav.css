@@ -59,6 +59,7 @@ input, button, select {
     padding: 20px 40px 0px 0px;
     transition: ease-in-out all 0.3s;
     color: #bc046e;
+    font-size: 17px;
 }
 .socialmedia-navigationbar i:hover {
     padding: 20px 40px 0px 0px;
