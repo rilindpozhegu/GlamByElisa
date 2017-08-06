@@ -23,7 +23,7 @@
 
                                     <figure class="iso-box graphic branding col-md-3 col-xs-6">
                                         <!-- <a href="img/makeup/makeup (2).jpg" itemprop="contentUrl" data-size="2978x2086"> -->
-                                            <img src="img/makeup/makeup (2).jpg" itemprop="thumbnail" alt="Image description" />
+                                            <img src="img/makeup/makeup (2).JPG" itemprop="thumbnail" alt="Image description" />
                                         </a>
                                     <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
 
@@ -31,7 +31,7 @@
 
                                     <figure class="iso-box graphic branding col-md-3 col-xs-6">
                                         <!-- <a href="img/makeup/makeup (3).jpg" itemprop="contentUrl" data-size="2978x2086"> -->
-                                            <img src="img/makeup/makeup (3).jpg" itemprop="thumbnail" alt="Image description" />
+                                            <img src="img/makeup/makeup (3).JPG" itemprop="thumbnail" alt="Image description" />
                                         </a>
                                     <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
 
@@ -39,7 +39,7 @@
 
                                     <figure class="iso-box graphic branding col-md-3 col-xs-6">
                                         <!-- <a href="img/makeup/makeup (4).jpg" itemprop="contentUrl" data-size="2978x2086"> -->
-                                            <img src="img/makeup/makeup (4).jpg" itemprop="thumbnail" alt="Image description" />
+                                            <img src="img/makeup/makeup (4).JPG" itemprop="thumbnail" alt="Image description" />
                                         </a>
                                     <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
 
@@ -55,7 +55,7 @@
 
                                     <figure class="iso-box graphic branding col-md-3 col-xs-6">
                                         <!-- <a href="img/makeup/makeup (6).jpg" itemprop="contentUrl" data-size="2978x2086"> -->
-                                            <img src="img/makeup/makeup (6).jpg" itemprop="thumbnail" alt="Image description" />
+                                            <img src="img/makeup/makeup (6).JPG" itemprop="thumbnail" alt="Image description" />
                                         </a>
                                     <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
 
@@ -135,7 +135,7 @@
 
                                     <figure class="iso-box graphic branding col-md-3 col-xs-6">
                                         <!-- <a href="img/makeup/makeup (17).jpg" itemprop="contentUrl" data-size="2978x2086"> -->
-                                            <img src="img/makeup/makeup (17).jpg" itemprop="thumbnail" alt="Image description" />
+                                            <img src="img/makeup/makeup (17).JPG" itemprop="thumbnail" alt="Image description" />
                                         </a>
                                     <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
 

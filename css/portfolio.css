@@ -45,18 +45,18 @@
 
 /*Portfolio Cover*/
 .portfolio-cover {
-	margin-top: 5%;
-	padding: 150px 0px;
-	/*background-image: url('../img/portfolio-cover.png');*/
-	padding-top: 15%;
-    padding-bottom: 25%;
-	width: 100%;
-	background-color: #f2f2f2;
-	text-align: center;
-	color: white;/*
-	border-bottom: solid 15px goldenrod;*/
-	background-size: cover;
-	background-repeat: no-repeat; 
+    margin-top: 5%;
+    padding: 150px 0px;
+    /* background-image: url(../img/portfolio-cover.png); */
+    padding-top: 10%;
+    padding-bottom: 21%;
+    width: 100%;
+    background-color: #f2f2f2;
+    text-align: center;
+    color: white;
+    /* border-bottom: solid 15px goldenrod; */
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .portfolio-cover img{
@@ -195,11 +195,41 @@
 .iso-box {
   position: relative;
   
-  border: 1px solid #333;
-  margin: 2%;
+  border: 0px solid #fff !important;
   overflow: hidden;
+
+  padding: 0px !important;
+  margin: 0px !important;
 }
 
+
+    
+.portfolio-section-home img {
+  -moz-transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.portfolio-section-home:hover img {
+    webkit-filter: blur(1.5px); /* Safari */
+    filter: blur(1.5px);
+    -webkit-filter: grayscale(50%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(50%);
+}
+
+.portfolio-section-home img:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    webkit-filter: blur(0px); /* Safari */
+    filter: blur(0px);
+}
+
+.iso-box {
+  position: relative;  
+  border: 1px solid #333;
+  overflow: hidden;
+}
 
 
 /*Desktop*/

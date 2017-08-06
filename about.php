@@ -24,7 +24,7 @@
     <link href="css/scrolling-nav.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/preloader.css">
     <link rel="stylesheet" type="text/css" href="css/navigation_styl_col.css">
-    <link rel="stylesheet" type="text/css" href="css/extra_pages_style.css">
+    <link rel="stylesheet" href="css/extra_pages_style.css?<?= filemtime('css/extra_pages_style.css') ?>">
 
      <!-- PhotoSwipe -->
     <link rel="stylesheet" type="text/css" href="css/default-skin.css">

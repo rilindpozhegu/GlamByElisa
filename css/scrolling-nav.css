@@ -299,14 +299,15 @@ input, button, select {
 
 .text-s1 {
     height: 41vh;
-    padding: 15% 0px 0px 30px;
+    padding: 25% 0px 0px 30px;
 }
 
 
 .section1 .text-s1 h1 {
     color: white;
     margin-top: 20px;
-    font-size: 20px;
+    margin-bottom: 20px;
+    font-size: 28px;
     font-family: 'GOTHAM-Regular';
 } 
 .section1 .text-s1 p {
@@ -357,8 +358,7 @@ input, button, select {
     }
     .section1 .text-s1 h1 {
         color: white;
-        font-size: 16px;
-        font-family: 'GOTHAM-BOLD';
+        font-size: 20px;
         margin: 0px;
     } 
     .section1 .text-s1 p {
@@ -375,6 +375,7 @@ input, button, select {
         background-color: #bc046e;
         color: white;
         border: transparent;
+        margin-top: 20px;
     }
     .section1 .text-s1 button i{
         padding-left: 10px;

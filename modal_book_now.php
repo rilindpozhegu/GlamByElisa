@@ -16,11 +16,11 @@
                 <div class="col-md-6 small_padding_lr">
                 <select class="selectpicker">
                   <option value="" disabled selected>Services:</option>
-                  <option>Facial Treatments Service</option>
-                  <option>Waxing Service</option>
+                  <option>Makeup and Trials</option>
+                  <option>Bridal & Hair Updos</option>
+                  <option>Skincare Treatment</option>
                   <option>Brow Bar</option>
-                  <option>Make Up Looks</option>
-                  <option>Hair Up Dos & Styling</option>
+                  <option>Waxing</option>
                 </select>
                 </div>
                 <div class="col-md-6 small_padding_lr">

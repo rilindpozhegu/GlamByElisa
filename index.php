@@ -22,12 +22,13 @@
 
     <!-- Custom CSS -->
     <link href="css/scrolling-nav.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/home-galery.css">
-    <link rel="stylesheet" type="text/css" href="css/modal_style.css">
+    <link rel="stylesheet" href="css/scrolling-nav.css?<?= filemtime('css/scrolling-nav.css') ?>">
+    <link rel="stylesheet" href="css/home-galery.css?<?= filemtime('css/home-galery.css') ?>">
+    <link rel="stylesheet" href="css/modal_style.css?<?= filemtime('css/modal_style.css') ?>">
     <link rel="stylesheet" type="text/css" href="css/preloader.css">
 
      <!-- PhotoSwipe -->
-    <link rel="stylesheet" type="text/css" href="css/default-skin.css">
+    <link rel="stylesheet" href="css/default-skin.css?<?= filemtime('css/default-skin.css') ?>">
     <link rel="stylesheet" href="css/photoswipe.css">
 
 </head>
@@ -68,27 +69,7 @@
                     </li>
                     <li>
                         <li class="dropdown dropdown-navigationbar">
-                            <a id="drop1" class="active1n" href="http://glambyelisa.com/">HOME<!--  <i class="fa fa-angle-down" aria-hidden="true"></i> --></a>
-                            <!-- <ul id="menu1" class="dropdown-menu" role="menu" aria-labelledby="drop1">
-                                <li role="presentation"><a role="menuitem" href="#"><i class="fa fa-angle-down" aria-hidden="true"></i> Make Up</a>
-                                </li>
-                                <li role="presentation"><a role="menuitem" href="#"><i class="fa fa-angle-down" aria-hidden="true"></i> Hair Do's</a>
-                                </li>
-                                <li role="presentation"><a role="menuitem" href="#"><i class="fa fa-angle-down" aria-hidden="true"></i> Wedding Make Up Trail</a>
-                                </li>
-                                <li role="presentation"><a role="menuitem" href="#"><i class="fa fa-angle-down" aria-hidden="true"></i> Photoshots</a>
-                                </li>
-                                <li role="presentation"><a role="menuitem" href="#"><i class="fa fa-angle-down" aria-hidden="true"></i> Videos</a>
-                                </li>
-                                <li role="presentation"><a role="menuitem" href="#"><i class="fa fa-angle-down" aria-hidden="true"></i> Fashion Shows</a>
-                                </li>
-                                <li role="presentation"><a role="menuitem" href="#"><i class="fa fa-angle-down" aria-hidden="true"></i> Classic</a>
-                                </li>
-                                <li role="presentation"><a role="menuitem" href="#"><i class="fa fa-angle-down" aria-hidden="true"></i> Classic Trendy</a>
-                                </li>
-                                <li role="presentation"><a role="menuitem" href="#"><i class="fa fa-angle-down" aria-hidden="true"></i> Trendy</a>
-                                </li>
-                            </ul> -->
+                            <a id="drop1" class="active1n" href="http://glambyelisa.com/">HOME</a>
                         </li>
                     </li>
                     <li>
@@ -176,30 +157,30 @@
                 <div class="col-md-12 col-xs-6 text-s1">
                 <hr  width="40%" align="left" color:"pink" class="mobile-d-n">
                     <h1>Makeup and Trials</h1>
-                    <p>(all include lashes)<br>
+                    <!-- <p>(all include lashes)<br>
                     Wedding make up<br>
                     Trial<br>
                     Photography
-                    </p>
+                    </p> -->
 
-                    <a href="services.php#service_one"><button class="default_button">More<i class="fa fa-angle-right" aria-hidden="true"></i></button></a>
+                    <a href="services.php#service_four"><button class="default_button">More<i class="fa fa-angle-right" aria-hidden="true"></i></button></a>
                 </div>
             </div> 
             <div class="twentygrid col-xs-12 padding-none first-panel-glam">
                 <div class="col-md-12 col-xs-6 text-s1">
                 <hr  width="40%" align="left" color:"pink" class="mobile-d-n">
                     <h1>Bridal & Hair Updos</h1>
-                    <p>
+                    <!-- <p>
                     HAIR UP DOS & STYLING<br>
                     Waves<br>
                     Straight<br>
                     Romantic<br>
 
-                    </p>
-                <a href="services.php#service_two"><button class="default_button">More<i class="fa fa-angle-right" aria-hidden="true"></i></button></a>
+                    </p> -->
+                <a href="services.php#service_three"><button class="default_button">More<i class="fa fa-angle-right" aria-hidden="true"></i></button></a>
                 </div>
                 <div class="col-md-12 col-xs-6 image-s1 padding-none">
-                    <img src="img/homeservices/homepage 2.jpg">
+                    <img src="img/homeservices/homepage 2.jpg" style="object-position: 10%;">
                     <div class="overlay_image_g">
                         <div class="text">
                            <button class="default_button"  data-toggle="modal" data-target="#myModal">Book Now <i class="fa fa-angle-down" aria-hidden="true"></i></button>
@@ -219,27 +200,27 @@
                 <div class="col-md-12 col-xs-6 text-s1">
                 <hr  width="40%" align="left" color:"pink" class="mobile-d-n">
                     <h1>Skincare Treatment</h1>
-                    <p>Acne facial<br>
+                    <!-- <p>Acne facial<br>
                     Chemical peels+led light<br>
                     Microdermabrasion <br>
-                    </p>
-                <a href="services.php#service_three"><button class="default_button">More<i class="fa fa-angle-right" aria-hidden="true"></i></button></a>
+                    </p> -->
+                <a href="services.php#service_one"><button class="default_button">More<i class="fa fa-angle-right" aria-hidden="true"></i></button></a>
                 </div>
             </div>
             <div class="twentygrid col-xs-12 padding-none first-panel-glam">
                 <div class="col-md-12 col-xs-6 text-s1">
                 <hr  width="40%" align="left" color:"pink" class="mobile-d-n">
                     <h1>Brow Bar</h1>
-                    <p>Brow shaping and waxing<br>
+                    <!-- <p>Brow shaping and waxing<br>
                     Brows waxing<br>
                     Brow tinting<br>
                     (Microblading)coming soon
 
-                    </p>
-                <a href="services.php#service_four"><button class="default_button">More<i class="fa fa-angle-right" aria-hidden="true"></i></button></a>
+                    </p> -->
+                <a href="services.php#service_three"><button class="default_button">More<i class="fa fa-angle-right" aria-hidden="true"></i></button></a>
                 </div>
                 <div class="col-md-12 col-xs-6 image-s1 padding-none">
-                    <img src="img/homeservices/Brow service front.jpg">
+                    <img src="img/homeservices/Brow service front.jpg" style="object-position: 0%;">
                     <div class="overlay_image_g">
                         <div class="text">
                            <button class="default_button"  data-toggle="modal" data-target="#myModal">Book Now <i class="fa fa-angle-down" aria-hidden="true"></i></button>
@@ -259,12 +240,12 @@
                 <div class="col-md-12 col-xs-6 text-s1">
                 <hr  width="40%" align="left" color:"pink" class="mobile-d-n">
                     <h1>Waxing</h1>
-                    <p>Lip<br>
+                    <!-- <p>Lip<br>
                     Chin<br>
                     Cheeks<br>
                     Full Face
-                    </p>
-                <a href="services.php#service_five"><button class="default_button">More<i class="fa fa-angle-right" aria-hidden="true"></i>
+                    </p> -->
+                <a href="services.php#service_two"><button class="default_button">More<i class="fa fa-angle-right" aria-hidden="true"></i>
                 </button></a>
                 </div>
             </div>
@@ -334,7 +315,7 @@
 
                                     <figure class="iso-box graphic branding col-md-2 col-xs-6">
                                         <a href="img/galery/1.png" itemprop="contentUrl" data-size="2978x2086">
-                                            <img src="img/galery/1.png" itemprop="thumbnail" alt="Image description" />
+                                            <img src="img/galery/1.png" itemprop="thumbnail" alt="Image description" class="small_image_gall" />
                                         </a>
                                     <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
 
@@ -342,7 +323,7 @@
 
                                     <figure class="iso-box graphic branding col-md-2 col-xs-6">
                                         <a href="img/galery/2.png" itemprop="contentUrl" data-size="2978x2086">
-                                            <img src="img/galery/2.png" itemprop="thumbnail" alt="Image description" />
+                                            <img src="img/galery/2.png" itemprop="thumbnail" alt="Image description" class="small_image_gall"/>
                                         </a>
                                     <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
 
@@ -350,7 +331,7 @@
 
                                     <figure class="iso-box graphic branding col-md-2 col-xs-6">
                                         <a href="img/galery/3.png" itemprop="contentUrl" data-size="2978x2086">
-                                            <img src="img/galery/3.png" itemprop="thumbnail" alt="Image description" />
+                                            <img src="img/galery/3.png" itemprop="thumbnail" alt="Image description" class="small_image_gall" />
                                         </a>
                                     <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
 
@@ -358,7 +339,7 @@
 
                                     <figure class="iso-box graphic branding col-md-2 col-xs-6">
                                         <a href="img/galery/4.png" itemprop="contentUrl" data-size="2978x2086">
-                                            <img src="img/galery/4.png" itemprop="thumbnail" alt="Image description" />
+                                            <img src="img/galery/4.png" itemprop="thumbnail" alt="Image description" class="small_image_gall" />
                                         </a>
                                     <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
 
@@ -366,7 +347,7 @@
 
                                     <figure class="iso-box graphic branding col-md-2 col-xs-6">
                                         <a href="img/galery/5.png" itemprop="contentUrl" data-size="2978x2086">
-                                            <img src="img/galery/5.png" itemprop="thumbnail" alt="Image description" />
+                                            <img src="img/galery/5.png" itemprop="thumbnail" alt="Image description" class="small_image_gall" />
                                         </a>
                                     <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
 
@@ -374,7 +355,7 @@
 
                                     <figure class="iso-box graphic branding col-md-2 col-xs-6">
                                         <a href="img/galery/6.png" itemprop="contentUrl" data-size="2978x2086">
-                                            <img src="img/galery/6.png" itemprop="thumbnail" alt="Image description" />
+                                            <img src="img/galery/6.png" itemprop="thumbnail" alt="Image description" class="small_image_gall" />
                                         </a>
                                     <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
 
@@ -382,7 +363,7 @@
 
                                     <figure class="iso-box graphic branding col-md-2 col-xs-6">
                                         <a href="img/galery/7.png" itemprop="contentUrl" data-size="2978x2086">
-                                            <img src="img/galery/7.png" itemprop="thumbnail" alt="Image description" />
+                                            <img src="img/galery/7.png" itemprop="thumbnail" alt="Image description" class="small_image_gall" />
                                         </a>
                                     <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
 
@@ -390,7 +371,7 @@
 
                                     <figure class="iso-box graphic branding col-md-2 col-xs-6">
                                         <a href="img/galery/8.png" itemprop="contentUrl" data-size="2978x2086">
-                                            <img src="img/galery/8.png" itemprop="thumbnail" alt="Image description" />
+                                            <img src="img/galery/8.png" itemprop="thumbnail" alt="Image description" class="small_image_gall" />
                                         </a>
                                     <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
 
@@ -398,7 +379,7 @@
 
                                     <figure class="iso-box graphic branding col-md-2 col-xs-6">
                                         <a href="img/galery/9.png" itemprop="contentUrl" data-size="2978x2086">
-                                            <img src="img/galery/9.png" itemprop="thumbnail" alt="Image description" />
+                                            <img src="img/galery/9.png" itemprop="thumbnail" alt="Image description" class="small_image_gall" />
                                         </a>
                                     <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
 
@@ -406,7 +387,7 @@
 
                                     <figure class="iso-box graphic branding col-md-2 col-xs-6">
                                         <a href="img/galery/10.png" itemprop="contentUrl" data-size="2978x2086">
-                                            <img src="img/galery/10.png" itemprop="thumbnail" alt="Image description" />
+                                            <img src="img/galery/10.png" itemprop="thumbnail" alt="Image description" class="small_image_gall" />
                                         </a>
                                     <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
 
@@ -414,7 +395,7 @@
 
                                     <figure class="iso-box graphic branding col-md-2 col-xs-6">
                                         <a href="img/galery/11.png" itemprop="contentUrl" data-size="2978x2086">
-                                            <img src="img/galery/11.png" itemprop="thumbnail" alt="Image description" />
+                                            <img src="img/galery/11.png" itemprop="thumbnail" alt="Image description" class="small_image_gall" />
                                         </a>
                                     <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
 
@@ -422,7 +403,7 @@
 
                                     <figure class="iso-box graphic branding col-md-2 col-xs-6">
                                         <a href="img/galery/12.png" itemprop="contentUrl" data-size="2978x2086">
-                                            <img src="img/galery/12.png" itemprop="thumbnail" alt="Image description" />
+                                            <img src="img/galery/12.png" itemprop="thumbnail" alt="Image description" class="small_image_gall" />
                                         </a>
                                     <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
 
@@ -430,7 +411,7 @@
 
                                     <figure class="iso-box graphic branding col-md-2 col-xs-6">
                                         <a href="img/galery/13.png" itemprop="contentUrl" data-size="2978x2086">
-                                            <img src="img/galery/13.png" itemprop="thumbnail" alt="Image description" />
+                                            <img src="img/galery/13.png" itemprop="thumbnail" alt="Image description" class="small_image_gall" />
                                         </a>
                                     <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
 
@@ -438,7 +419,7 @@
 
                                     <figure class="iso-box graphic branding col-md-2 col-xs-6">
                                         <a href="img/galery/14.png" itemprop="contentUrl" data-size="2978x2086">
-                                            <img src="img/galery/14.png" itemprop="thumbnail" alt="Image description" />
+                                            <img src="img/galery/14.png" itemprop="thumbnail" alt="Image description" class="small_image_gall" />
                                         </a>
                                     <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
 
@@ -446,7 +427,7 @@
 
                                     <figure class="iso-box graphic branding col-md-2 col-xs-6">
                                         <a href="img/galery/15.png" itemprop="contentUrl" data-size="2978x2086">
-                                            <img src="img/galery/15.png" itemprop="thumbnail" alt="Image description" />
+                                            <img src="img/galery/15.png" itemprop="thumbnail" alt="Image description" class="small_image_gall" />
                                         </a>
                                     <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
 
@@ -454,7 +435,7 @@
 
                                     <figure class="iso-box graphic branding col-md-2 col-xs-6">
                                         <a href="img/galery/16.png" itemprop="contentUrl" data-size="2978x2086">
-                                            <img src="img/galery/16.png" itemprop="thumbnail" alt="Image description" />
+                                            <img src="img/galery/16.png" itemprop="thumbnail" alt="Image description" class="small_image_gall" />
                                         </a>
                                     <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
 
@@ -462,7 +443,7 @@
 
                                     <figure class="iso-box graphic branding col-md-2 col-xs-6">
                                         <a href="img/galery/17.png" itemprop="contentUrl" data-size="2978x2086">
-                                            <img src="img/galery/17.png" itemprop="thumbnail" alt="Image description" />
+                                            <img src="img/galery/17.png" itemprop="thumbnail" alt="Image description" class="small_image_gall" />
                                         </a>
                                     <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
 
@@ -470,7 +451,7 @@
 
                                     <figure class="iso-box graphic branding col-md-2 col-xs-6">
                                         <a href="img/galery/18.png" itemprop="contentUrl" data-size="2978x2086">
-                                            <img src="img/galery/18.png" itemprop="thumbnail" alt="Image description" />
+                                            <img src="img/galery/18.png" itemprop="thumbnail" alt="Image description" class="small_image_gall" />
                                         </a>
                                     <!-- <figcaption itemprop="caption description">Image caption 1</figcaption> -->
 
